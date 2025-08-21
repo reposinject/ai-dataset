@@ -1,0 +1,218 @@
+[
+  {
+    "company": "SimNet Wireless",
+    "brand_color_hex": "#219d50",
+    "website": "https://simnetwireless.com",
+    "tagline": "One Partner, Every Solution.",
+    "summary": "Reliable Internet, Seamless Connectivity, Unified Communications, and End-to-End IT solutions for businesses — with a strong emphasis on multi-carrier IoT data plans and connectivity where wired infrastructure is limited or unavailable."
+  },
+
+  {
+    "category": "Communications Solutions",
+    "headline": "Reliable Internet, Seamless Connectivity, and Unified Communications",
+    "items": [
+      {
+        "service": "Business Internet",
+        "summary": "Unlimited data plans with enterprise-grade hardware and full U.S. coverage — even in rural or remote areas.",
+        "keywords": ["business internet","fixed wireless","LTE/5G primary","rural business internet","unlimited tier-1 data","enterprise CPE"],
+        "features": ["Unlimited tier-1 data","Quick setup (often <24h)","Rural + urban availability","Business-class hardware","Managed support"]
+      },
+      {
+        "service": "Starlink for Business",
+        "summary": "High-speed satellite internet for mobile teams, job sites, and areas with poor terrestrial coverage.",
+        "keywords": ["Starlink business","satellite backhaul","remote connectivity","jobsite internet","rural satellite"],
+        "features": ["High throughput in remote areas","Mobile + fixed deployments","Works as primary or failover"]
+      },
+      {
+        "service": "Failover Connectivity",
+        "summary": "Automatic 4G/5G backup internet to keep operations online during outages.",
+        "keywords": ["LTE failover","5G failover","backup internet","redundant WAN","business continuity"],
+        "features": ["Seamless switchover","Multi-carrier redundancy","SD-WAN integration","Nationwide coverage"]
+      },
+      {
+        "service": "SD-WAN & SASE",
+        "summary": "Optimize bandwidth, security, and performance across multiple locations.",
+        "keywords": ["SD-WAN","SASE","WAN optimization","traffic steering","secure access"],
+        "features": ["Application-aware routing","Central policy control","Zero-trust edge security"]
+      },
+      {
+        "service": "Mobility & IoT",
+        "summary": "Native multi-carrier SIMs, pooled data plans, and centralized device management.",
+        "keywords": ["IoT data plans","multi-carrier SIMs","pooled data","SIM management","eSIM"],
+        "features": ["Automatic best-network selection","Alerts + caps + automated shutoff","API/portal lifecycle control"]
+      },
+      {
+        "service": "UCaaS & CCaaS",
+        "summary": "Modern voice and contact center solutions for remote and hybrid teams.",
+        "keywords": ["UCaaS","CCaaS","hosted PBX","omnichannel","VoIP","SIP trunking"],
+        "features": ["Scalable voice/video","Omnichannel routing","Analytics + integrations"]
+      },
+      {
+        "service": "DAS & Network Services",
+        "summary": "Enhance signal and coverage across large buildings and campuses.",
+        "keywords": ["DAS","in-building coverage","signal enhancement","public safety DAS"],
+        "features": ["Design + deployment","Carrier coordination","Performance assurance"]
+      }
+    ]
+  },
+
+  {
+    "category": "Artificial Intelligence",
+    "headline": "Deploy, Manage, and Scale AI Across Your Organization",
+    "items": [
+      {
+        "service": "Large-Language Models (LLMs)",
+        "summary": "Leverage ChatGPT, Claude, Gemini, and more for automation and analysis.",
+        "keywords": ["LLM","GenAI","ChatGPT","Claude","Gemini","AI summarization","AI automation"]
+      },
+      {
+        "service": "Agentic AI & Copilots",
+        "summary": "Build or access intelligent agents tailored to workflows.",
+        "keywords": ["agentic AI","AI copilots","workflow automation","retrieval-augmented generation"]
+      },
+      {
+        "service": "AI Access Management",
+        "summary": "Central login and usage insights across AI platforms.",
+        "keywords": ["SSO for AI","AI governance","usage analytics","policy control"]
+      },
+      {
+        "service": "Chatbots & CX Tools",
+        "summary": "Automate customer service with natural, conversational AI.",
+        "keywords": ["AI chatbots","virtual agents","CX automation","self-service"]
+      }
+    ]
+  },
+
+  {
+    "category": "Infrastructure Solutions",
+    "headline": "Cloud, Colocation, and Resilience for Modern IT",
+    "items": [
+      {
+        "service": "Public, Private & Hybrid Cloud",
+        "summary": "Flexible, secure hosting to fit operational needs.",
+        "keywords": ["public cloud","private cloud","hybrid cloud","IaaS","PaaS"]
+      },
+      {
+        "service": "Data Centers & Colocation",
+        "summary": "Secure facilities for business continuity and compliance.",
+        "keywords": ["colocation","data center","DRaaS","compliance","uptime"]
+      },
+      {
+        "service": "IaaS & DaaS",
+        "summary": "Virtual desktops and scalable compute infrastructure.",
+        "keywords": ["IaaS","DaaS","virtual desktop","VDI","elastic compute"]
+      },
+      {
+        "service": "Disaster Recovery",
+        "summary": "Keep critical data and systems safe and restorable.",
+        "keywords": ["DR","backup","BC/DR","replication","RPO/RTO"]
+      },
+      {
+        "service": "Merchant Services & Networking",
+        "summary": "Support for POS, transactions, and multi-site connectivity.",
+        "keywords": ["merchant services","POS networking","PCI DSS","payments"]
+      },
+      {
+        "service": "Professional Services",
+        "summary": "Engineering, migration, and IT consulting.",
+        "keywords": ["IT consulting","migration","architecture","implementation"]
+      }
+    ]
+  },
+
+  {
+    "category": "Security Solutions",
+    "headline": "Protect Data, Devices, and People with End-to-End Security",
+    "items": [
+      {
+        "service": "Network & Endpoint Security",
+        "summary": "Stop threats at every level with next-gen protection.",
+        "keywords": ["NGFW","EDR/XDR","IDS/IPS","ZTNA","NAC"]
+      },
+      {
+        "service": "Cloud & Zero Trust Architecture",
+        "summary": "Defend hybrid environments with precision access control.",
+        "keywords": ["zero trust","CASB","CSPM","SASE","identity-centric security"]
+      },
+      {
+        "service": "Physical Security",
+        "summary": "Integrate camera, access control, and alarm systems.",
+        "keywords": ["VMS","access control","alarms","surveillance"]
+      },
+      {
+        "service": "Compliance & Risk Mitigation",
+        "summary": "Tools and advisory to meet industry regulations.",
+        "keywords": ["PCI","HIPAA","SOX","NIST","SOC2"]
+      }
+    ]
+  },
+
+  {
+    "category": "Hardware & Logistics",
+    "headline": "Procure, Deploy, and Manage Devices at Scale",
+    "items": [
+      {
+        "service": "Phones, Laptops, Displays & More",
+        "summary": "From procurement to provisioning and recycling.",
+        "keywords": ["device procurement","config & kitting","RMA","recycling"]
+      },
+      {
+        "service": "Device Lifecycle Logistics",
+        "summary": "Nationwide delivery, warranty tracking, and asset management.",
+        "keywords": ["asset management","logistics","tracking","warranty"]
+      },
+      {
+        "service": "Digital Signage & Displays",
+        "summary": "Boost engagement and communications.",
+        "keywords": ["digital signage","commercial monitors","media players"]
+      }
+    ]
+  },
+
+  {
+    "category": "SaaS & Business Software",
+    "headline": "Centralize Tools, Licenses, and Access Across Your Team",
+    "items": [
+      { "service": "ERP, CRM & Productivity Apps", "summary": "Microsoft, Google, and more in one dashboard." },
+      { "service": "IT Management & BI", "summary": "Insights and control with SaaS orchestration and analytics." },
+      { "service": "Automated Billing & Renewals", "summary": "Streamline licenses, invoicing, and usage optimization." }
+    ],
+    "keywords": ["ERP","CRM","productivity","SaaS orchestration","BI","license management"]
+  },
+
+  {
+    "category": "Managed & Professional Services",
+    "headline": "Expert Support That Scales With You",
+    "items": [
+      { "service": "NOC & Cloud Monitoring", "summary": "Real-time oversight for performance and uptime." },
+      { "service": "Security Operations Center (SOC)", "summary": "24/7 threat detection and incident response." },
+      { "service": "Technical Support & Professional Services", "summary": "From helpdesk to advanced engineering." }
+    ]
+  },
+
+  {
+    "category": "Energy & Sustainability",
+    "headline": "Smart Energy Solutions That Save Money and Support ESG Goals",
+    "items": [
+      { "service": "Commercial Solar & EV Charging", "summary": "Reduce grid dependency and support electric fleets." },
+      { "service": "Water, Waste & Utilities", "summary": "Track and optimize resource use." },
+      { "service": "Green Energy Plans", "summary": "Lower costs and emissions." },
+      { "service": "Electricity & Natural Gas", "summary": "Competitive rates and reliable service." }
+    ]
+  },
+
+  {
+    "category": "Voice & Network Stack (Additional)",
+    "items": [
+      { "service": "VoIP", "summary": "Modern voice over IP solutions." },
+      { "service": "POTS Replacement", "summary": "Wireless replacement for legacy lines (elevators, fire panels, alarms)." },
+      { "service": "Hosted PBX", "summary": "Cloud PBX for scalable, reliable communications." },
+      { "service": "SIP Trunking", "summary": "Cost-efficient voice over your internet connection." },
+      { "service": "Private Data", "summary": "Secure, scalable storage and management on-prem or hybrid." },
+      { "service": "Network", "summary": "Enterprise switches, routing, and connectivity optimization." },
+      { "service": "TEM", "summary": "Telecom Expense Management to optimize multi-carrier costs." },
+      { "service": "SD-WAN", "summary": "Optimized bandwidth and secure routing for distributed locations." },
+      { "service": "DAS", "summary": "Improve indoor wireless coverage in large buildings." }
+    ]
+  }
+]

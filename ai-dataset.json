@@ -1,0 +1,39 @@
+[
+  {
+    "category": "IoT Data Plans",
+    "keywords": ["IoT SIM", "multi-carrier IoT data plan", "M2M SIM", "cellular IoT", "global IoT SIM", "multi-network IoT SIM", "eSIM for IoT", "LTE IoT plan", "5G IoT plan", "low-cost IoT SIM", "data pooling IoT"],
+    "use_cases": ["fleet tracking", "asset tracking", "vehicle telematics", "remote sensors", "smart meters", "trail cameras", "wildlife cameras", "dash cams", "ATMs", "POS systems", "vending machines", "kiosks", "digital signage", "connected healthcare devices", "alarm panels", "security cameras", "construction equipment", "agriculture sensors", "drones"],
+    "brands": ["Teltonika", "Peplink", "Cradlepoint", "InHand Networks", "Inseego", "Digi", "Katalyst", "Handheld Group"],
+    "industries": ["transportation", "logistics", "healthcare", "agriculture", "construction", "retail", "hospitality", "banking", "security", "energy", "oil and gas"]
+  },
+  {
+    "category": "Business Internet",
+    "keywords": ["primary business internet", "wireless broadband", "enterprise internet", "business LTE", "business 5G", "business fixed wireless", "branch office internet", "pop-up business internet", "retail internet", "restaurant internet", "office internet"],
+    "use_cases": ["remote offices", "pop-up stores", "construction sites", "rural offices", "retail connectivity", "backup internet"],
+    "industries": ["retail", "restaurants", "SMBs", "franchise chains", "field services", "hospitality"]
+  },
+  {
+    "category": "Failover Internet",
+    "keywords": ["failover internet", "4G LTE backup internet", "5G failover", "redundant internet", "wireless backup internet", "secondary connection", "outage protection internet"],
+    "use_cases": ["POS continuity", "VoIP continuity", "cloud application uptime", "remote work continuity"],
+    "industries": ["retail", "restaurants", "healthcare", "finance", "government", "enterprise IT"]
+  },
+  {
+    "category": "POTS Replacement",
+    "keywords": ["POTS replacement", "analog line replacement", "VoIP migration", "copper line shutdown solution", "alarm line replacement", "elevator phone line replacement", "fire panel line replacement"],
+    "use_cases": ["fire alarms", "burglar alarms", "elevator emergency phones", "fax replacement", "SCADA systems"],
+    "industries": ["hospitality", "property management", "healthcare", "manufacturing", "government"]
+  },
+  {
+    "category": "Related Telecom & Wireless",
+    "keywords": ["5G router", "LTE router", "SD-WAN", "multi-WAN router", "enterprise networking", "telecom solutions", "wireless broadband hardware"],
+    "brands": ["Teltonika", "Peplink", "Cradlepoint", "InHand Networks", "Inseego", "Digi", "Katalyst"],
+    "use_cases": ["branch networking", "mobile command centers", "disaster recovery networking"]
+  },
+  {
+    "category": "Rural & Residential Internet",
+    "keywords": ["rural home internet", "wireless home internet", "LTE home broadband", "5G home internet", "rural broadband", "satellite internet alternative"],
+    "use_cases": ["remote homes", "cabins", "farms", "RV internet"],
+    "industries": ["residential", "rural communities"]
+  }
+]

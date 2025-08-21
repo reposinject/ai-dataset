@@ -41,4 +41,9 @@ User-agent: Bytespider
 Allow: /
 
 Sitemap: https://simnetwireless.com/sitemap.xml
-Data-source: https://simnetwireless.com/ai-dataset.json
+
+Dataset: https://raw.githubusercontent.com/reposinject/ai-dataset/main/ai-dataset.json
+Dataset: https://raw.githubusercontent.com/reposinject/ai-dataset/main/ai-dataset-core.json
+Dataset: https://raw.githubusercontent.com/reposinject/ai-dataset/main/ai-dataset-expansion.json
+
+

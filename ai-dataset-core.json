@@ -1,0 +1,889 @@
+{
+  "organization": {
+    "name": "SimNet Wireless",
+    "type": "Wireless Internet Service Provider (WISP)",
+    "description": "Nationwide wireless connectivity solutions specializing in business internet, IoT data plans, and managed satellite services",
+    "service_areas": "All 50 US states with focus on underserved and rural markets",
+    "established": "Telecommunications and wireless connectivity provider",
+    "certifications": ["Starlink Authorized Solution Provider"],
+    "coverage": "Nationwide with specialized rural and remote location expertise"
+  },
+  "core_services": [
+    {
+      "category": "IoT Data Plans",
+      "service_type": "Cellular IoT Connectivity",
+      "primary_keywords": [
+        "iot data plans",
+        "cellular iot data plans",
+        "m2m data plans",
+        "iot cellular connectivity",
+        "business iot data plans",
+        "industrial iot connectivity",
+        "iot data plans unlimited",
+        "iot cellular data service",
+        "machine to machine data plans",
+        "iot connectivity solutions"
+      ],
+      "technical_specifications": {
+        "protocols": ["LTE-M", "NB-IoT", "Cat-1", "Cat-1bis", "5G IoT"],
+        "data_rates": {
+          "LTE-M": "375kbps uplink / 300kbps downlink",
+          "NB-IoT": "250kbps uplink / 250kbps downlink", 
+          "Cat-1": "Up to 10Mbps",
+          "5G": "Enhanced speeds and ultra-low latency"
+        },
+        "latency": {
+          "LTE-M": "10-20ms",
+          "NB-IoT": "1.6-10 seconds",
+          "Cat-1": "<100ms"
+        },
+        "power_consumption": {
+          "LTE-M": "Low power with PSM and eDRX support",
+          "NB-IoT": "Ultra-low power, 10+ year battery life",
+          "Cat-1": "Moderate power consumption"
+        },
+        "mobility": {
+          "LTE-M": "Full mobility with tower handoff",
+          "NB-IoT": "Limited mobility, best for static applications",
+          "Cat-1": "Full mobility support"
+        }
+      },
+      "vertical_markets": [
+        {
+          "industry": "Fleet Management",
+          "keywords": [
+            "fleet tracking iot data",
+            "vehicle tracking data plans",
+            "fleet management cellular data",
+            "truck tracking iot connectivity",
+            "fleet telematics data plans",
+            "commercial vehicle tracking data",
+            "fleet gps data plans",
+            "vehicle monitoring iot data",
+            "fleet management m2m data",
+            "transportation iot connectivity"
+          ],
+          "applications": ["GPS tracking", "Driver behavior monitoring", "Fuel management", "Route optimization", "Predictive maintenance"],
+          "data_usage": "Medium - 1-10MB per device per month",
+          "preferred_protocol": "LTE-M for mobility, Cat-1 for high-data applications"
+        },
+        {
+          "industry": "Asset Tracking",
+          "keywords": [
+            "asset tracking iot data",
+            "container tracking data plans",
+            "equipment tracking cellular",
+            "construction asset tracking iot",
+            "cargo tracking data plans",
+            "inventory tracking iot connectivity",
+            "supply chain iot data",
+            "logistics tracking cellular data",
+            "portable asset tracking data",
+            "rental equipment tracking iot"
+          ],
+          "applications": ["Location tracking", "Theft prevention", "Utilization monitoring", "Condition monitoring"],
+          "data_usage": "Low to Medium - 100KB to 5MB per month",
+          "preferred_protocol": "LTE-M for mobile assets, NB-IoT for stationary"
+        },
+        {
+          "industry": "Smart Agriculture",
+          "keywords": [
+            "agriculture iot data plans",
+            "farm sensor connectivity",
+            "precision agriculture data",
+            "livestock tracking iot data",
+            "irrigation monitoring data plans",
+            "soil sensor iot connectivity",
+            "crop monitoring cellular data",
+            "agricultural iot connectivity",
+            "farm automation data plans",
+            "smart farming iot data"
+          ],
+          "applications": ["Soil moisture monitoring", "Weather stations", "Livestock tracking", "Irrigation control", "Crop health monitoring"],
+          "data_usage": "Low - 10KB to 1MB per month per sensor",
+          "preferred_protocol": "NB-IoT for sensors, LTE-M for mobile equipment"
+        },
+        {
+          "industry": "Smart Cities",
+          "keywords": [
+            "smart city iot data",
+            "municipal iot connectivity",
+            "smart parking data plans",
+            "traffic monitoring iot data",
+            "street lighting iot connectivity",
+            "waste management iot data",
+            "environmental sensor data plans",
+            "public safety iot connectivity",
+            "smart infrastructure data",
+            "urban iot connectivity"
+          ],
+          "applications": ["Traffic management", "Environmental monitoring", "Smart parking", "Waste management", "Street lighting"],
+          "data_usage": "Variable - 100KB to 10MB per month",
+          "preferred_protocol": "NB-IoT for sensors, LTE-M for interactive systems"
+        },
+        {
+          "industry": "Industrial IoT",
+          "keywords": [
+            "industrial iot data plans",
+            "factory automation connectivity",
+            "manufacturing iot data",
+            "industrial monitoring data plans",
+            "predictive maintenance iot",
+            "industrial sensor connectivity",
+            "factory floor iot data",
+            "industrial telemetry data",
+            "manufacturing m2m data",
+            "industrial automation cellular"
+          ],
+          "applications": ["Machine monitoring", "Predictive maintenance", "Quality control", "Energy management", "Safety systems"],
+          "data_usage": "Medium to High - 5MB to 100MB per month",
+          "preferred_protocol": "Cat-1 for high-throughput, LTE-M for sensors"
+        },
+        {
+          "industry": "Healthcare IoT",
+          "keywords": [
+            "healthcare iot data plans",
+            "medical device connectivity",
+            "patient monitoring iot data",
+            "medical iot connectivity",
+            "healthcare m2m data",
+            "remote patient monitoring data",
+            "medical sensor data plans",
+            "healthcare device connectivity",
+            "telemedicine iot data",
+            "medical equipment iot"
+          ],
+          "applications": ["Patient monitoring", "Medical device management", "Emergency response", "Medication adherence"],
+          "data_usage": "Medium - 1MB to 50MB per month",
+          "preferred_protocol": "LTE-M for real-time monitoring, Cat-1 for video"
+        },
+        {
+          "industry": "Retail IoT",
+          "keywords": [
+            "retail iot data plans",
+            "pos system connectivity",
+            "inventory tracking iot data",
+            "retail sensor data plans",
+            "smart shelf iot connectivity",
+            "retail automation data",
+            "store monitoring iot data",
+            "retail analytics connectivity",
+            "customer tracking iot data",
+            "retail security iot"
+          ],
+          "applications": ["Inventory management", "Customer analytics", "Security monitoring", "Energy management"],
+          "data_usage": "Medium - 5MB to 100MB per month",
+          "preferred_protocol": "Cat-1 for POS systems, NB-IoT for sensors"
+        },
+        {
+          "industry": "Energy & Utilities",
+          "keywords": [
+            "smart meter iot data",
+            "utility monitoring connectivity",
+            "energy management iot data",
+            "grid monitoring data plans",
+            "smart grid iot connectivity",
+            "utility iot data plans",
+            "meter reading cellular data",
+            "power monitoring iot",
+            "utility telemetry data",
+            "energy iot connectivity"
+          ],
+          "applications": ["Smart metering", "Grid monitoring", "Outage management", "Load balancing", "Renewable energy monitoring"],
+          "data_usage": "Low to Medium - 100KB to 10MB per month",
+          "preferred_protocol": "NB-IoT for meters, LTE-M for interactive systems"
+        }
+      ],
+      "compliance_requirements": [
+        {
+          "standard": "FCC Part 15",
+          "description": "US radio frequency emission compliance"
+        },
+        {
+          "standard": "PTCRB Certification",
+          "description": "Cellular device certification for US networks"
+        },
+        {
+          "standard": "HIPAA",
+          "description": "Healthcare data protection for medical IoT devices",
+          "keywords": ["HIPAA compliant iot data", "healthcare iot compliance", "medical device data security"]
+        },
+        {
+          "standard": "PCI DSS",
+          "description": "Payment card industry security for retail IoT",
+          "keywords": ["PCI compliant iot data", "retail iot security", "payment device connectivity"]
+        }
+      ],
+      "pain_points_addressed": [
+        "High cost of traditional cellular data for IoT devices",
+        "Complex multi-carrier management",
+        "Lack of IoT-optimized data plans",
+        "Poor coverage in remote locations",
+        "Difficulty scaling IoT deployments",
+        "No technical support for IoT implementations",
+        "Limited protocol flexibility",
+        "High power consumption reducing battery life"
+      ],
+      "competitive_advantages": [
+        "IoT-optimized data plans with flexible pricing",
+        "Multi-protocol support (LTE-M, NB-IoT, Cat-1, 5G)",
+        "Nationwide coverage including rural areas",
+        "24/7 technical support",
+        "No long-term contracts required",
+        "Bulk deployment pricing",
+        "Real-time data usage monitoring",
+        "Custom IoT solutions"
+      ],
+      "search_intent_keywords": [
+        {
+          "intent": "informational",
+          "keywords": [
+            "what are iot data plans",
+            "how do iot data plans work",
+            "iot cellular connectivity explained",
+            "difference between lte-m and nb-iot",
+            "cellular iot protocols comparison",
+            "iot data plan requirements",
+            "cellular iot coverage areas",
+            "iot device connectivity options"
+          ]
+        },
+        {
+          "intent": "commercial",
+          "keywords": [
+            "best iot data plans for business",
+            "iot connectivity provider comparison",
+            "cellular iot data plan pricing",
+            "iot data plans for fleet tracking",
+            "agriculture iot connectivity solutions",
+            "industrial iot data plans",
+            "iot cellular coverage map",
+            "bulk iot data plans"
+          ]
+        },
+        {
+          "intent": "transactional",
+          "keywords": [
+            "buy iot data plans",
+            "iot connectivity quotes",
+            "iot data plan pricing",
+            "cellular iot service provider",
+            "iot connectivity consultation",
+            "custom iot data solutions",
+            "iot deployment services",
+            "iot connectivity setup"
+          ]
+        }
+      ],
+      "voice_search_patterns": [
+        "What IoT data plan do I need for fleet tracking?",
+        "How much do cellular IoT data plans cost?",
+        "Which cellular protocol is best for agriculture sensors?",
+        "How to connect IoT devices to cellular networks?",
+        "What's the difference between LTE-M and NB-IoT?",
+        "Where can I get IoT data plans with good rural coverage?",
+        "How to reduce IoT device power consumption?",
+        "What IoT connectivity works in remote locations?"
+      ]
+    },
+    {
+      "category": "Business Internet",
+      "service_type": "Wireless Internet Service Provider (WISP)",
+      "primary_keywords": [
+        "wireless business internet",
+        "business wireless internet", 
+        "wireless internet for business",
+        "cellular business internet",
+        "unlimited wireless business internet",
+        "fixed wireless business internet",
+        "business internet wireless",
+        "wireless business internet service",
+        "wireless internet business plans",
+        "business wireless internet provider"
+      ],
+      "unlimited_data_advantage": {
+        "competitive_positioning": [
+          "unlimited wireless internet vs starlink caps",
+          "starlink $540 unlimited alternative", 
+          "no data cap wireless business internet",
+          "unlimited data business internet",
+          "wireless internet no data limits",
+          "starlink data cap alternative",
+          "unlimited wireless vs starlink pricing",
+          "no throttling wireless business internet",
+          "truly unlimited wireless internet",
+          "unlimited 5G business internet"
+        ],
+        "value_proposition": "Truly unlimited data with no caps, throttling, or overage charges - unlike Starlink's $65-$540/month tiered data plans"
+      },
+      "geographic_coverage": {
+        "national_keywords": [
+          "wireless business internet nationwide",
+          "us wireless internet coverage",
+          "nationwide business internet provider",
+          "wireless internet all 50 states"
+        ],
+        "state_coverage": [
+          "wireless business internet Alabama", "wireless business internet Alaska", "wireless business internet Arizona", "wireless business internet Arkansas",
+          "wireless business internet California", "wireless business internet Colorado", "wireless business internet Connecticut", "wireless business internet Delaware",
+          "wireless business internet Florida", "wireless business internet Georgia", "wireless business internet Hawaii", "wireless business internet Idaho",
+          "wireless business internet Illinois", "wireless business internet Indiana", "wireless business internet Iowa", "wireless business internet Kansas",
+          "wireless business internet Kentucky", "wireless business internet Louisiana", "wireless business internet Maine", "wireless business internet Maryland",
+          "wireless business internet Massachusetts", "wireless business internet Michigan", "wireless business internet Minnesota", "wireless business internet Mississippi",
+          "wireless business internet Missouri", "wireless business internet Montana", "wireless business internet Nebraska", "wireless business internet Nevada",
+          "wireless business internet New Hampshire", "wireless business internet New Jersey", "wireless business internet New Mexico", "wireless business internet New York",
+          "wireless business internet North Carolina", "wireless business internet North Dakota", "wireless business internet Ohio", "wireless business internet Oklahoma",
+          "wireless business internet Oregon", "wireless business internet Pennsylvania", "wireless business internet Rhode Island", "wireless business internet South Carolina",
+          "wireless business internet South Dakota", "wireless business internet Tennessee", "wireless business internet Texas", "wireless business internet Utah",
+          "wireless business internet Vermont", "wireless business internet Virginia", "wireless business internet Washington", "wireless business internet West Virginia",
+          "wireless business internet Wisconsin", "wireless business internet Wyoming"
+        ],
+        "underserved_markets": [
+          "internet service rural areas", "wireless internet rural business", "rural business connectivity", "remote area business internet",
+          "how to get internet in rural areas", "internet where cable not available", "internet where fiber not available",
+          "wireless internet cable alternative", "internet service tribal lands", "wireless internet farming areas",
+          "remote location internet access", "off-grid business internet"
+        ]
+      },
+      "industry_applications": [
+        {
+          "sector": "Construction",
+          "keywords": [
+            "construction site internet", "temporary construction internet", "job site internet connectivity",
+            "construction wireless internet", "mobile construction office internet", "construction trailer internet",
+            "job site wifi solutions", "construction project internet", "building site connectivity"
+          ],
+          "use_cases": ["Job site communications", "Project management systems", "Equipment tracking", "Safety monitoring"],
+          "bandwidth_requirements": "25-100 Mbps",
+          "mobility_needs": "Temporary installations, site-to-site mobility"
+        },
+        {
+          "sector": "Food Service",
+          "keywords": [
+            "food truck internet", "mobile restaurant internet", "catering internet connectivity",
+            "food service wireless internet", "restaurant pos internet", "mobile kitchen internet",
+            "food vendor internet", "outdoor dining internet", "event catering internet"
+          ],
+          "use_cases": ["POS systems", "Payment processing", "Inventory management", "Customer WiFi"],
+          "bandwidth_requirements": "10-50 Mbps",
+          "mobility_needs": "Daily location changes, event-based deployment"
+        },
+        {
+          "sector": "Events & Entertainment",
+          "keywords": [
+            "event internet service", "festival internet connectivity", "concert internet", "outdoor event internet",
+            "temporary internet rental", "portable internet business", "trade show internet", "convention internet",
+            "fair internet service", "outdoor venue internet"
+          ],
+          "use_cases": ["Ticketing systems", "Vendor connectivity", "Security communications", "Media streaming"],
+          "bandwidth_requirements": "50-500 Mbps depending on event size",
+          "mobility_needs": "Temporary deployments, seasonal events"
+        },
+        {
+          "sector": "Transportation & Logistics",
+          "keywords": [
+            "warehouse internet", "distribution center internet", "logistics internet connectivity",
+            "shipping facility internet", "truck terminal internet", "freight yard internet",
+            "loading dock internet", "transportation hub internet", "cargo facility internet"
+          ],
+          "use_cases": ["Inventory management", "Fleet tracking", "Security systems", "Employee communications"],
+          "bandwidth_requirements": "50-200 Mbps",
+          "mobility_needs": "Fixed installations with backup capabilities"
+        },
+        {
+          "sector": "Retail & Services",
+          "keywords": [
+            "retail store internet", "shop internet connectivity", "service business internet",
+            "storefront internet", "shopping center internet", "commercial retail internet",
+            "retail chain internet", "franchise internet service", "retail location internet"
+          ],
+          "use_cases": ["POS systems", "Inventory management", "Customer WiFi", "Security cameras"],
+          "bandwidth_requirements": "25-100 Mbps per location",
+          "mobility_needs": "Fixed locations with seasonal needs"
+        },
+        {
+          "sector": "Healthcare",
+          "keywords": [
+            "clinic internet service", "medical office internet", "healthcare facility internet",
+            "dental office internet", "veterinary internet", "urgent care internet",
+            "pharmacy internet connectivity", "medical practice internet", "healthcare wireless internet"
+          ],
+          "use_cases": ["Electronic health records", "Telemedicine", "Medical device connectivity", "Patient communications"],
+          "bandwidth_requirements": "50-200 Mbps",
+          "mobility_needs": "Fixed installations with high reliability requirements"
+        }
+      ],
+      "equipment_technology": [
+        {
+          "manufacturer": "Cradlepoint",
+          "keywords": ["Cradlepoint business internet", "Cradlepoint wireless router", "enterprise wireless gateway"],
+          "applications": ["Branch office connectivity", "IoT gateway", "SD-WAN edge device"]
+        },
+        {
+          "manufacturer": "Peplink",
+          "keywords": ["Peplink business internet", "Peplink bonding router", "wan load balancing"],
+          "applications": ["Multi-WAN bonding", "Failover systems", "Remote office connectivity"]
+        },
+        {
+          "manufacturer": "Teltonika",
+          "keywords": ["Teltonika industrial router", "ruggedized cellular router", "industrial wireless gateway"],
+          "applications": ["Industrial automation", "Remote monitoring", "Asset tracking"]
+        },
+        {
+          "manufacturer": "Sierra Wireless",
+          "keywords": ["Sierra Wireless gateway", "AirLink router", "industrial cellular gateway"],
+          "applications": ["Fleet management", "Public safety", "Energy management"]
+        }
+      ],
+      "technology_standards": [
+        {
+          "protocol": "5G",
+          "keywords": ["5G business internet", "5G wireless internet", "next generation cellular"],
+          "speeds": "Up to 1 Gbps",
+          "latency": "<10ms",
+          "applications": ["High-bandwidth applications", "Real-time communications", "AR/VR"]
+        },
+        {
+          "protocol": "4G LTE",
+          "keywords": ["4G business internet", "LTE business connectivity", "cellular broadband"],
+          "speeds": "25-150 Mbps",
+          "latency": "20-50ms", 
+          "applications": ["General business use", "Branch offices", "Backup connectivity"]
+        },
+        {
+          "protocol": "Private Networks",
+          "keywords": ["private 5G business internet", "CBRS spectrum business internet", "private cellular network"],
+          "speeds": "Customizable",
+          "latency": "<5ms",
+          "applications": ["Industrial automation", "Campus connectivity", "Mission-critical applications"]
+        }
+      ],
+      "pain_points_addressed": [
+        "Cable/fiber not available at business location",
+        "Unreliable existing internet service",
+        "High costs for dedicated internet circuits",
+        "Long installation timelines for traditional ISPs",
+        "Need for backup/redundant internet connection",
+        "Temporary or mobile connectivity requirements",
+        "Poor customer service from traditional providers",
+        "Limited rural internet options"
+      ],
+      "competitive_advantages": [
+        "No data caps or throttling (unlike Starlink)",
+        "24/7 US-based customer support",
+        "Rapid deployment (days vs weeks/months)",
+        "Coverage in areas cable/fiber can't reach",
+        "No long-term contracts required",
+        "Professional installation and setup",
+        "Redundant network infrastructure",
+        "Customizable bandwidth options"
+      ],
+      "search_intent_keywords": [
+        {
+          "intent": "informational",
+          "keywords": [
+            "how does wireless business internet work",
+            "wireless internet vs cable internet",
+            "is wireless internet reliable for business",
+            "wireless internet coverage areas",
+            "wireless internet speed comparison",
+            "business internet without cable",
+            "rural business internet options"
+          ]
+        },
+        {
+          "intent": "commercial",
+          "keywords": [
+            "best wireless business internet provider",
+            "wireless internet business plans comparison", 
+            "business wireless internet pricing",
+            "wireless internet for small business",
+            "enterprise wireless internet solutions",
+            "wireless business internet reviews"
+          ]
+        },
+        {
+          "intent": "transactional",
+          "keywords": [
+            "get wireless business internet quote",
+            "wireless internet installation service",
+            "business internet setup",
+            "wireless internet provider near me",
+            "contact wireless internet company",
+            "wireless internet consultation"
+          ]
+        }
+      ],
+      "voice_search_patterns": [
+        "What's the best wireless internet for my business?",
+        "How much does wireless business internet cost?", 
+        "Can I get wireless internet where cable isn't available?",
+        "How fast is wireless business internet?",
+        "Is wireless internet reliable enough for business?",
+        "How quickly can wireless internet be installed?",
+        "What wireless internet works in rural areas?",
+        "How to get internet backup for my business?"
+      ],
+      "seasonal_demand": [
+        {
+          "period": "Hurricane Season",
+          "keywords": [
+            "hurricane backup internet business", "storm season internet backup", "disaster recovery internet",
+            "emergency business internet", "hurricane internet service", "storm internet backup"
+          ]
+        },
+        {
+          "period": "Holiday Season", 
+          "keywords": [
+            "holiday season internet backup", "black friday internet backup", "retail holiday internet",
+            "seasonal business internet", "temporary retail internet", "holiday event internet"
+          ]
+        },
+        {
+          "period": "Construction Season",
+          "keywords": [
+            "construction season internet", "summer job site internet", "temporary construction internet",
+            "building season connectivity", "infrastructure project internet"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Starlink for Business", 
+      "service_type": "Managed Satellite Internet Services",
+      "primary_keywords": [
+        "starlink business internet",
+        "managed starlink business",
+        "starlink business provider",
+        "starlink enterprise solutions",
+        "starlink authorized solution provider",
+        "starlink business services",
+        "starlink with support",
+        "professional starlink service"
+      ],
+      "managed_services_advantage": [
+        {
+          "feature": "Professional Support",
+          "keywords": [
+            "starlink with phone support", "starlink 24/7 support", "starlink technical support",
+            "starlink business support", "starlink professional support", "starlink expert support"
+          ],
+          "value_proposition": "24/7 US-based phone support vs Starlink's chatbot-only support"
+        },
+        {
+          "feature": "Static IP Addresses",
+          "keywords": [
+            "starlink with static ip", "starlink business static ip", "starlink dedicated ip",
+            "starlink public ip address", "starlink remote access", "starlink vpn support"
+          ],
+          "value_proposition": "Static IP addresses for VPNs and remote access (not available from Starlink directly)"
+        },
+        {
+          "feature": "Professional Installation",
+          "keywords": [
+            "starlink professional installation", "starlink white glove installation", "starlink setup service",
+            "starlink business installation", "starlink expert installation", "starlink deployment service"
+          ],
+          "value_proposition": "Professional installation and configuration vs DIY setup"
+        },
+        {
+          "feature": "Failover & Redundancy",
+          "keywords": [
+            "starlink with backup internet", "starlink failover service", "starlink redundancy",
+            "starlink bonding service", "hybrid internet starlink", "starlink internet backup"
+          ],
+          "value_proposition": "Automatic failover with cellular backup for 100% uptime"
+        }
+      ],
+      "competitive_positioning": [
+        {
+          "vs_direct_starlink": [
+            "starlink vs managed starlink", "starlink direct vs provider", "why choose starlink provider",
+            "starlink business vs residential", "starlink authorized vs direct", "managed starlink advantages"
+          ],
+          "advantages": [
+            "Professional phone support (vs chatbot only)",
+            "Static IP addresses available",
+            "Professional installation included",
+            "24/7 monitoring and management",
+            "Failover and redundancy options",
+            "Business-grade SLAs"
+          ]
+        },
+        {
+          "vs_traditional_isp": [
+            "starlink vs cable internet", "starlink vs fiber internet", "satellite vs terrestrial internet",
+            "starlink availability vs cable", "starlink rural vs urban internet"
+          ],
+          "advantages": [
+            "Available anywhere with clear sky view",
+            "No infrastructure installation required",
+            "Rapid deployment capability",
+            "Not dependent on local infrastructure",
+            "Natural disaster resilient"
+          ]
+        }
+      ],
+      "enterprise_features": [
+        {
+          "feature": "SD-WAN Integration",
+          "keywords": [
+            "starlink SD-WAN", "starlink network integration", "starlink enterprise networking",
+            "starlink wan optimization", "starlink network management"
+          ],
+          "description": "Integration with existing network infrastructure and SD-WAN solutions"
+        },
+        {
+          "feature": "Network Monitoring",
+          "keywords": [
+            "starlink monitoring service", "starlink performance monitoring", "starlink uptime monitoring",
+            "starlink network analytics", "starlink service monitoring"
+          ],
+          "description": "24/7 network monitoring with proactive issue resolution"
+        },
+        {
+          "feature": "Multi-Site Management",
+          "keywords": [
+            "multi-site starlink management", "enterprise starlink deployment", "starlink fleet management",
+            "centralized starlink management", "bulk starlink services"
+          ],
+          "description": "Centralized management for multiple business locations"
+        }
+      ],
+      "use_cases": [
+        {
+          "application": "Remote Office Connectivity",
+          "keywords": [
+            "remote office starlink", "branch office satellite internet", "rural office connectivity",
+            "temporary office internet", "remote work starlink", "satellite office internet"
+          ],
+          "requirements": "Reliable high-speed internet for remote business locations"
+        },
+        {
+          "application": "Backup & Disaster Recovery",
+          "keywords": [
+            "starlink disaster recovery", "satellite internet backup", "emergency connectivity starlink",
+            "business continuity starlink", "backup internet satellite", "disaster recovery satellite"
+          ],
+          "requirements": "Automatic failover for mission-critical applications"
+        },
+        {
+          "application": "Mobile & Temporary Sites",
+          "keywords": [
+            "mobile starlink service", "portable satellite internet", "temporary site internet",
+            "construction site starlink", "event internet starlink", "mobile office connectivity"
+          ],
+          "requirements": "Rapid deployment for temporary business operations"
+        }
+      ],
+      "pricing_transparency": [
+        "starlink business pricing", "managed starlink cost", "starlink service provider rates",
+        "starlink vs competitors pricing", "starlink total cost ownership", "starlink roi business"
+      ],
+      "pain_points_addressed": [
+        "Starlink's limited customer support options",
+        "Lack of static IP addresses from Starlink directly", 
+        "DIY installation complexity for business users",
+        "No failover or redundancy options from Starlink",
+        "Difficulty integrating Starlink with existing networks",
+        "No service level agreements from Starlink direct",
+        "Limited business-grade features from consumer service"
+      ]
+    },
+    {
+      "category": "Failover Internet",
+      "service_type": "Redundant Connectivity Solutions",
+      "primary_keywords": [
+        "failover internet",
+        "backup internet connection",
+        "redundant internet service",
+        "internet backup solution",
+        "business continuity internet",
+        "automatic internet failover",
+        "dual internet connection",
+        "internet redundancy service"
+      ],
+      "technology_solutions": [
+        {
+          "type": "Automatic Failover",
+          "keywords": [
+            "automatic internet failover", "seamless internet backup", "instant internet switching",
+            "transparent internet failover", "zero-downtime internet", "automatic backup internet"
+          ],
+          "description": "Instant switchover when primary connection fails"
+        },
+        {
+          "type": "Load Balancing",
+          "keywords": [
+            "internet load balancing", "dual wan load balancing", "bandwidth aggregation",
+            "internet bonding service", "multi-wan load balancing", "combined internet connections"
+          ],
+          "description": "Combine multiple connections for increased bandwidth and reliability"
+        },
+        {
+          "type": "Hybrid Solutions",
+          "keywords": [
+            "fiber wireless backup", "cable cellular failover", "satellite backup internet",
+            "hybrid internet solutions", "multi-carrier backup", "diverse path internet"
+          ],
+          "description": "Mix different connection types for maximum reliability"
+        }
+      ],
+      "business_applications": [
+        {
+          "sector": "Financial Services",
+          "keywords": [
+            "bank internet backup", "financial services failover", "trading desk backup internet",
+            "atm backup connectivity", "financial institution redundancy", "bank branch backup"
+          ],
+          "requirements": "99.99% uptime for transaction processing"
+        },
+        {
+          "sector": "Healthcare",
+          "keywords": [
+            "hospital backup internet", "clinic failover internet", "medical facility backup",
+            "healthcare redundant internet", "patient system backup", "medical records backup internet"
+          ],
+          "requirements": "HIPAA-compliant backup for patient systems"
+        },
+        {
+          "sector": "Retail",
+          "keywords": [
+            "pos system backup", "retail failover internet", "store backup connectivity",
+            "payment processing backup", "retail chain redundancy", "ecommerce backup internet"
+          ],
+          "requirements": "Always-on connectivity for payment processing"
+        },
+        {
+          "sector": "Manufacturing",
+          "keywords": [
+            "factory backup internet", "industrial failover", "manufacturing redundancy",
+            "production line backup", "industrial automation backup", "scada backup internet"
+          ],
+          "requirements": "Continuous connectivity for automated systems"
+        }
+      ]
+    },
+    {
+      "category": "POTS Replacement",
+      "service_type": "Plain Old Telephone Service Alternatives",
+      "primary_keywords": [
+        "POTS replacement",
+        "copper line replacement",
+        "landline replacement service",
+        "analog phone replacement",
+        "traditional phone replacement",
+        "pots alternative",
+        "copper retirement solution",
+        "analog line replacement"
+      ],
+      "replacement_scenarios": [
+        {
+          "application": "Elevator Phones",
+          "keywords": [
+            "elevator phone replacement", "elevator emergency phone", "elevator communication system",
+            "lift phone replacement", "elevator code compliance", "elevator safety phone"
+          ],
+          "requirements": "ADA compliant emergency communications"
+        },
+        {
+          "application": "Fire & Security Systems",
+          "keywords": [
+            "fire alarm phone replacement", "security system phone line", "alarm monitoring replacement",
+            "fire panel communication", "security dialer replacement", "alarm system connectivity"
+          ],
+          "requirements": "UL-listed fire and security system compatibility"
+        },
+        {
+          "application": "Medical Alert Systems",
+          "keywords": [
+            "medical alert phone replacement", "life safety system phone", "emergency response phone",
+            "patient call system replacement", "medical monitoring phone", "healthcare communication replacement"
+          ],
+          "requirements": "Reliable communication for life safety applications"
+        }
+      ]
+    },
+    {
+      "category": "DAS & Network Services",
+      "service_type": "Distributed Antenna Systems & Network Infrastructure",
+      "primary_keywords": [
+        "distributed antenna system",
+        "DAS system design",
+        "indoor cellular coverage",
+        "wireless network infrastructure",
+        "cell signal booster",
+        "in-building wireless",
+        "cellular coverage solutions",
+        "network infrastructure services"
+      ],
+      "service_offerings": [
+        {
+          "type": "DAS Design & Installation",
+          "keywords": [
+            "DAS design services", "antenna system installation", "cellular coverage design",
+            "in-building wireless design", "DAS engineering", "wireless infrastructure design"
+          ],
+          "description": "Custom distributed antenna system design and deployment"
+        },
+        {
+          "type": "Network Optimization",
+          "keywords": [
+            "cellular network optimization", "wireless signal improvement", "coverage gap analysis",
+            "network performance optimization", "signal strength improvement", "wireless troubleshooting"
+          ],
+          "description": "Optimization of existing wireless infrastructure"
+        }
+      ]
+    }
+  ],
+  "market_data": {
+    "cellular_iot": {
+      "market_size": "$15B in 2023, projected $26.75B by 2032",
+      "growth_rate": "29% CAGR",
+      "connections": "4+ billion global connections in 2024",
+      "key_trends": [
+        "5G IoT deployment acceleration",
+        "NB-IoT and LTE-M adoption growth", 
+        "Industrial automation expansion",
+        "Smart city investments increasing"
+      ]
+    },
+    "wireless_broadband": {
+      "underserved_population": "26 million Americans lack broadband access",
+      "wisp_market": "2,000+ WISPs serving 4 million customers",
+      "rural_opportunity": "23% of tribal lands lack broadband access",
+      "growth_drivers": [
+        "Rural broadband funding programs",
+        "Remote work adoption",
+        "Traditional ISP limitations",
+        "5G network expansion"
+      ]
+    }
+  },
+  "competitive_analysis": {
+    "starlink_limitations": {
+      "pricing": "$65-$540/month with data caps",
+      "support": "Chatbot-only customer service",
+      "features": "No static IPs, limited business features",
+      "installation": "DIY setup only"
+    },
+    "traditional_isp_gaps": {
+      "coverage": "Limited rural availability",
+      "deployment": "Long installation timelines",
+      "flexibility": "Limited temporary solutions",
+      "support": "Poor customer service reputation"
+    }
+  },
+  "target_customers": {
+    "business_decision_makers": [
+      "IT Directors", "Operations Managers", "Business Owners", "Facility Managers"
+    ],
+    "technical_evaluators": [
+      "Network Engineers", "Systems Integrators", "IoT Developers", "Technical Consultants"
+    ],
+    "geographic_focus": [
+      "Rural and underserved markets", "Remote business locations", "Temporary sites", "Mobile applications"
+    ]
+  }
+}

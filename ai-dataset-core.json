@@ -12,70 +12,126 @@
     "headline": "Reliable Internet, Seamless Connectivity, and Unified Communications",
     "items": [
 {
-  "service": "Business Internet",
-  "summary": "Unlimited data plans with enterprise-grade hardware and full U.S. and worlwide coverage — even in rural or remote areas.",
+  "id": "business-internet",
+  "type": "service",
+  "name": "Business Internet",
+  "url": "https://simnetwireless.com/business-internet",
+  "priority": 10,
+  "summary": "Unlimited Tier-1 LTE/5G fixed wireless for primary and failover connectivity. Rapid deployment (often <24h), enterprise routers (Peplink, Cradlepoint), WAN bonding/SD-WAN, rural reach, and US-based support.",
+  "benefits": [
+    "Unlimited Tier-1 business data (no throttling on qualified plans)",
+    "Rapid deployment (often within 24 hours), no truck roll",
+    "Primary or failover connectivity with seamless switchover",
+    "WAN bonding for higher throughput; SD-WAN/SASE options",
+    "Works where cable/fiber are unavailable (rural/remote)",
+    "Business-class routers and managed service options",
+    "US-based support and unified billing"
+  ],
+  "features": [
+    "LTE/5G fixed wireless access",
+    "Automatic carrier selection and redundancy",
+    "Dual-SIM/dual-WAN bonding and failover",
+    "Static IP and IP passthrough options",
+    "SLA targets and active monitoring",
+    "PCI/HIPAA-friendly network designs",
+    "BYOD plans for compatible routers"
+  ],
+  "hardware_brands": ["Peplink", "Cradlepoint", "Inseego", "InHand Networks"],
+  "hardware_models": [
+    "Peplink MAX BR1 Mini",
+    "Peplink MAX BR1 Mini 5G",
+    "Peplink MAX BR1 Pro 5G",
+    "Peplink MAX BR2 Pro 5G",
+    "Peplink MAX HD4 MBX",
+    "Cradlepoint enterprise routers"
+  ],
+  "primary_use_cases": [
+    "Primary wireless business internet (office/branch)",
+    "Business failover (automatic backup during outages)",
+    "Temporary/event connectivity (festivals, pop-ups, venues)",
+    "Construction/job-site trailers and mobile offices",
+    "Food trucks and mobile POS",
+    "Remote/rural offices and off-grid operations",
+    "Mobile command centers, logistics and warehousing"
+  ],
+  "industries": [
+    "Construction & Development",
+    "Retail & POS",
+    "Events & Entertainment",
+    "Food Service & Mobile Vendors",
+    "Transportation & Logistics",
+    "Healthcare (remote sites)",
+    "Agriculture & Off-Grid"
+  ],
+  "faq": [
+    {
+      "q": "How fast is the wireless business internet?",
+      "a": "LTE/5G plans deliver fiber-comparable speeds with low latency suitable for video, POS, VoIP, and critical apps."
+    },
+    {
+      "q": "Do you support rural or remote locations?",
+      "a": "Yes. We leverage major carriers plus regional networks for coverage in most US locations where cable/fiber aren’t available."
+    },
+    {
+      "q": "Is data truly unlimited?",
+      "a": "We offer business-class unlimited data on qualified plans with no throttling, designed for high-usage operations."
+    },
+    {
+      "q": "How fast can we get installed?",
+      "a": "Most deployments are activated and shipping within 24 hours—no technician visit or cabling required."
+    },
+    {
+      "q": "Do you support failover and SD-WAN?",
+      "a": "Yes. We provide instant failover and SD-WAN/WAN bonding for seamless continuity and higher throughput."
+    }
+  ],
+  "query_intents": [
+    "what is wireless business internet",
+    "business internet without cable or phone line",
+    "backup internet for business failover",
+    "temporary internet for events or construction",
+    "wireless internet for POS and payments",
+    "best wireless internet for rural business",
+    "compare cellular vs fiber vs satellite for business"
+  ],
+  "related_services": [
+    { "id": "failover-internet", "rel": "complements" },
+    { "id": "iot-data-plans", "rel": "adjacent" },
+    { "id": "pots-replacement", "rel": "adjacent" }
+  ],
   "keywords": [
     "business internet","fixed wireless","LTE/5G primary","rural business internet","unlimited tier-1 data","enterprise CPE",
     "wireless business internet","mobile business internet","portable internet business","wireless internet service","business cellular internet",
-    "5G business internet","4G LTE business internet","unlimited wireless business internet","rural business internet","backup business internet",
-    "wireless business internet new york","wireless business internet los angeles","wireless business internet chicago","wireless business internet houston",
-    "wireless business internet texas","wireless business internet florida","wireless business internet california",
-    "construction site internet","jobsite internet","temporary construction internet","food truck internet","mobile vendor internet","event wireless internet",
-    "festival internet","telemedicine internet","popup store internet","emergency backup internet","fleet management internet","farm internet service",
-    "oil rig internet","cannabis dispensary internet","EV charging station internet","renewable energy connectivity","vertical farming internet",
-    "film production internet","dark store internet","edge computing wireless","private 5G business internet","CBRS business internet",
-    "Wi-Fi 7 business internet","multi-access edge computing","alternative satellite business internet","OneWeb business internet","Amazon Kuiper internet",
-    "hurricane backup internet business","wildfire backup internet","seasonal retail internet","cannabis compliance internet",
-    "EV infrastructure connectivity","solar farm internet","wind farm connectivity","urban farming connectivity","film crew internet",
-    "micro-fulfillment center internet","enhanced voice search","natural language queries business internet","BEAD program internet providers",
-    "CMMC 2.0 compliant internet","PCI DSS wireless business internet","HIPAA compliant wireless internet","eco-friendly wireless business internet",
-    "green technology wireless provider","energy efficient wireless internet","ghost kitchen wireless internet","influencer studio internet",
-    "digital nomad coworking internet","FEMA mobile command center internet","creative workspace internet","mobile medical clinic internet",
-    "scientific research station internet","autonomous vehicle testing 5G","drone delivery operation internet","AI research facility internet",
-    "smart city connectivity","FirstNet public safety","senior living WiFi","hospital backup internet","church WiFi solutions","data center redundant internet",
-    "defense contractor connectivity","NERC CIP compliant internet","smart waste management","intelligent transportation networks",
-    "cold chain monitoring internet","precision agriculture connectivity","livestock tracking internet","underground mining mesh networks",
-    "maritime VSAT solutions","hotel guest WiFi","restaurant POS connectivity","retail IoT networks","omnichannel retail networks",
-    "school E-rate internet","university campus internet","municipal broadband","federal facility connectivity","sustainability green connectivity",
-    "Starlink alternative unlimited data","managed Starlink services","Starlink failover","Starlink enterprise support","Starlink bonding solutions",
-    "WISP provider","wireless ISP","local wireless internet provider","CBRS WISP","unlicensed spectrum ISP","millimeter wave wireless ISP",
-    "rural broadband access","RDOF broadband funding","unserved rural areas","rural business internet solutions","internet no cable","internet no fiber",
-    "off-grid business internet","hybrid wireless internet solutions","business internet no contract","managed internet services","white glove internet service",
-    "remote work wireless internet","hybrid workforce connectivity","video conferencing wireless internet","Teams wireless internet","Zoom wireless internet",
-    "VoIP wireless business internet","UCaaS wireless internet","secure SD-WAN wireless","zero trust wireless internet","SASE wireless networking",
-    "asset tracking wireless internet","industrial IoT connectivity","smart factory wireless internet","unlimited data wireless business internet",
-    "no throttling wireless internet","Starlink replacement business internet","affordable wireless business internet","budget wireless business internet",
-    "construction site internet","jobsite connectivity","temporary construction internet","pipeline construction internet","food truck WiFi",
-    "outdoor event internet","wedding venue internet","fleet tracking internet","emergency backup internet","warehouse internet backup",
-    "ranch internet connectivity","off-grid connectivity","remote office internet solutions","emergency internet backup","managed internet consulting",
-    "proactive internet support","mission critical internet","high availability wireless internet","FCC compliant wireless internet","net neutrality business internet",
-    "SOC 2 compliant internet","telehealth internet requirements","NIST 800-171 compliant internet","secure wireless connectivity",
-    "customer pain points","slow internet alternatives","unreliable internet backup","emergency failover","rural coverage gaps","mission critical uptime",
-    "hybrid connectivity business","multi-path internet solutions","bonded internet connections","MIMO wireless business","carrier aggregation internet",
-    "static IP wireless business","business internet SLA","unlimited bandwidth wireless","eco-friendly internet provider","sustainable wireless internet",
-    "precision agriculture IoT","5G industrial applications","smart port connectivity","maritime cybersecurity","cold storage IoT","energy efficient networking",
-    "AI-powered network optimization","Industry 4.0 wireless internet","Starlink vs wireless","Starlink competitor","Starlink local priority alternative",
-    "Starlink monitoring services","proactive wireless internet monitoring","real-time network analytics","smart grid connectivity","utility SCADA networks",
-    "MSHA compliant mining wireless","environmental monitoring internet","pollution monitoring IoT","smart city sensors","municipal fiber alternatives",
-    "cloud interconnect","multi-cloud networking","virtual desktop infrastructure wireless","Citrix remote wireless","VMware Horizon wireless connectivity",
-    "Salesforce wireless integration","HubSpot wireless connectivity","Microsoft Dynamics wireless","Workday internet connectivity","remote employee internet",
-    "operational savings wireless internet","employee retention wireless internet","high speed wireless business internet","enterprise wireless speed",
-    "low latency wireless business","business internet disaster recovery","flexible wireless internet plans","prepaid business wireless","short-term wireless internet",
-    "VIP internet support","dedicated support business internet","turnkey wireless solutions"
-  ],
-  "features": [
-    "Unlimited tier-1 data",
-    "Quick setup (often <24h)",
-    "Rural + urban availability",
-    "Business-class hardware",
-    "Managed support",
-    "Failover-ready",
-    "Enterprise-grade SLAs",
-    "Nationwide coverage",
-    "No throttling",
-    "Carrier redundancy",
-    "Simple pricing",
-    "24/7 US-based support"
+    "5G business internet","4G LTE business internet","unlimited wireless business internet","backup business internet",
+    "wireless internet provider","enterprise wireless internet","commercial wireless internet","wireless broadband business",
+    "cellular business connectivity","mobile hotspot business","wireless WAN solutions","fixed wireless internet business",
+    "wireless internet plans business",
+    "rural business internet solutions","remote location internet service","wireless internet rural areas","business internet no cable available",
+    "internet service remote locations","off-grid business internet","business internet no fiber","wireless internet no cable",
+    "wireless internet backup business","alternative business internet","non-cable business internet","fiber alternative business",
+    "quick setup business internet","instant business internet","same day internet installation","rapid deployment internet",
+    "construction site internet","job site wireless internet","temporary construction internet","building site connectivity",
+    "contractor wireless internet","construction office internet","mobile office internet trailer","job site WiFi solutions","construction wireless network",
+    "event wireless internet","festival internet service","popup event connectivity","outdoor event internet","wedding venue internet",
+    "concert venue wireless","fair internet service","exhibition internet solutions","mobile event internet","temporary venue WiFi",
+    "popup store internet","temporary retail internet","mobile store connectivity","seasonal business internet","food truck internet service",
+    "farmers market internet","outdoor retail internet","mobile vendor internet","temporary shop WiFi","popup restaurant internet",
+    "food truck WiFi","mobile restaurant internet","catering business internet","outdoor dining internet","temporary kitchen internet",
+    "logistics wireless internet","warehouse temporary internet","shipping dock internet","mobile command center internet","delivery service internet",
+    "wireless POS internet","mobile payment internet","credit card processing internet","retail POS connectivity","wireless payment solutions",
+    "business internet backup","redundant internet connection","failover internet service","backup wireless internet","internet disaster recovery",
+    "5G business wireless internet","LTE enterprise internet","cellular business broadband","fixed wireless access business",
+    "point-to-point wireless internet","mesh network business internet","MIMO wireless business","carrier aggregation internet",
+    "wireless internet with SLA","enterprise grade wireless","business wireless with static IP","managed wireless internet service",
+    "SD-WAN wireless solutions","wireless internet bandwidth guarantee",
+    "high speed wireless business","gigabit wireless internet business","fast wireless business internet","low latency wireless business",
+    "unlimited wireless business internet","wireless internet 100mbps business","enterprise wireless speed","commercial grade wireless internet",
+    "secure wireless business internet","HIPAA compliant wireless internet","PCI compliant wireless business","encrypted wireless business internet",
+    "emergency business internet service","disaster recovery wireless internet","hurricane backup internet business",
+    "wireless business internet equipment","mobile business router","portable business WiFi device","wireless internet antenna business",
+    "enterprise wireless gateway","24/7 wireless internet support","managed wireless internet service","wireless internet monitoring service",
+    "proactive wireless internet management"
+    /* You can append your full 5,200-term expansion here if you want the entire list in core, or keep it split in ai-dataset-expansion.json. */
   ]
 },
       {
@@ -277,4 +333,5 @@
     ]
   }
 ]
+
 

@@ -1,0 +1,180 @@
+{
+  "organization": {
+    "name": "SimNet Wireless",
+    "description": "Nationwide wireless internet service provider specializing in business connectivity, IoT data plans, and managed satellite services for underserved markets",
+    "website": "https://simnetwireless.com",
+    "industry": "Telecommunications - Wireless Internet Service Provider (WISP)",
+    "service_model": "B2B wireless connectivity solutions",
+    "geographic_coverage": "All 50 US states with emphasis on rural and underserved markets",
+    "established_expertise": "Enterprise wireless internet, IoT cellular connectivity, satellite internet management, network infrastructure",
+    "target_customers": "Business decision makers, IT professionals, operations managers seeking reliable wireless connectivity solutions"
+  },
+  "dataset_structure": {
+    "core_services": {
+      "file": "ai-dataset-core.json",
+      "description": "Detailed specifications for primary revenue-generating services",
+      "categories": [
+        "IoT Data Plans & Cellular Connectivity",
+        "Wireless Business Internet Solutions", 
+        "Managed Starlink Business Services",
+        "Failover & Redundant Internet Solutions",
+        "POTS Replacement Services",
+        "DAS & Network Infrastructure Services"
+      ]
+    },
+    "expansion_services": {
+      "file": "ai-dataset-expansion.json", 
+      "description": "Supporting and emerging service categories",
+      "categories": [
+        "SD-WAN & SASE Solutions",
+        "UCaaS & CCaaS Communications",
+        "AI & Technology Solutions", 
+        "Infrastructure & Cloud Services",
+        "Security Solutions",
+        "Hardware & Logistics Services"
+      ]
+    }
+  },
+  "service_overview": {
+    "primary_value_propositions": [
+      "Unlimited wireless internet with no data caps (vs Starlink's tiered pricing)",
+      "24/7 US-based professional support (vs competitor chatbot support)",
+      "Nationwide coverage including areas cable/fiber cannot reach",
+      "IoT-optimized cellular data plans for business applications",
+      "Managed satellite services with enterprise features",
+      "Rapid deployment for temporary and mobile connectivity needs"
+    ],
+    "competitive_advantages": [
+      "Professional support vs automated systems",
+      "Truly unlimited data plans without throttling",
+      "Specialized rural and remote location expertise", 
+      "Multi-protocol IoT connectivity (LTE-M, NB-IoT, Cat-1, 5G)",
+      "Static IP addresses and enterprise networking features",
+      "No long-term contracts required for most services"
+    ],
+    "market_positioning": [
+      "Alternative to traditional ISPs for underserved markets",
+      "Enhanced satellite internet provider with professional services",
+      "Specialized IoT connectivity for business applications",
+      "Backup and redundancy solutions for mission-critical applications"
+    ]
+  },
+  "target_markets": {
+    "geographic_focus": {
+      "primary": "Rural and underserved areas of United States",
+      "secondary": "Urban areas needing backup or temporary connectivity", 
+      "coverage": "All 50 states plus US territories",
+      "underserved_population": "26 million Americans lacking broadband access"
+    },
+    "business_segments": [
+      {
+        "segment": "Small to Medium Business",
+        "needs": "Reliable internet where traditional options unavailable",
+        "solutions": "Wireless business internet, backup connectivity"
+      },
+      {
+        "segment": "IoT Deployers", 
+        "needs": "Cellular data plans for connected devices",
+        "solutions": "Multi-protocol IoT data plans, device management"
+      },
+      {
+        "segment": "Enterprise", 
+        "needs": "Redundancy, managed services, compliance",
+        "solutions": "Managed Starlink, failover systems, professional support"
+      },
+      {
+        "segment": "Government & Public Sector",
+        "needs": "Reliable connectivity for public services",
+        "solutions": "Government-grade connectivity, emergency communications"
+      }
+    ],
+    "vertical_industries": [
+      "Agriculture & Precision Farming",
+      "Transportation & Logistics", 
+      "Construction & Temporary Sites",
+      "Healthcare & Medical Facilities",
+      "Retail & Point-of-Sale",
+      "Manufacturing & Industrial",
+      "Energy & Utilities",
+      "Government & Public Safety"
+    ]
+  },
+  "technology_capabilities": {
+    "wireless_internet": {
+      "technologies": ["5G", "4G LTE", "Fixed Wireless", "Private Networks"],
+      "speeds": "Up to 1 Gbps depending on location and technology",
+      "coverage": "Nationwide with focus on underserved areas"
+    },
+    "iot_connectivity": {
+      "protocols": ["LTE-M", "NB-IoT", "Cat-1", "Cat-1bis", "5G IoT"],
+      "applications": "Fleet tracking, asset monitoring, smart agriculture, industrial automation",
+      "device_support": "Millions of connected devices across verticals"
+    },
+    "satellite_services": {
+      "platforms": "Starlink, traditional satellite",
+      "enhancements": "Professional installation, 24/7 support, static IPs, failover integration",
+      "deployment": "Rapid setup for remote locations"
+    },
+    "network_infrastructure": {
+      "services": "DAS design, network optimization, infrastructure consulting",
+      "expertise": "In-building wireless, cellular coverage enhancement"
+    }
+  },
+  "market_intelligence": {
+    "industry_data": {
+      "cellular_iot_market": "$15B in 2023, projected $26.75B by 2032 (29% CAGR)",
+      "iot_connections": "4+ billion global cellular IoT connections in 2024",
+      "underserved_broadband": "26 million Americans lack access to broadband internet",
+      "wisp_market": "2,000+ WISPs serving 4 million customers nationwide"
+    },
+    "growth_drivers": [
+      "Remote work adoption driving connectivity demand",
+      "IoT device proliferation across industries", 
+      "Government rural broadband initiatives",
+      "5G network expansion enabling new applications",
+      "Traditional ISP limitations in rural markets"
+    ],
+    "competitive_landscape": {
+      "starlink_limitations": "Consumer-focused with limited business features, $65-$540 tiered pricing",
+      "traditional_isp_gaps": "Poor rural coverage, long deployment timelines, limited flexibility",
+      "our_differentiation": "Business-focused solutions, professional support, unlimited data, rapid deployment"
+    }
+  },
+  "customer_pain_points": [
+    "Cable/fiber internet not available at business location",
+    "Unreliable existing internet service with frequent outages",
+    "High costs for dedicated internet circuits from traditional providers",
+    "Long installation timelines (weeks to months) for traditional ISP services",
+    "Need for backup/redundant internet connection for business continuity",
+    "Temporary or mobile connectivity requirements not served by fixed ISPs",
+    "Poor customer service from large telecommunications companies",
+    "Limited rural internet options with adequate speeds for business use",
+    "Complex IoT connectivity requirements across multiple devices and protocols",
+    "Lack of professional support for satellite internet deployments"
+  ],
+  "solution_benefits": [
+    "Rapid deployment (days vs weeks/months for traditional ISPs)",
+    "Coverage in areas where cable and fiber cannot economically reach", 
+    "Professional 24/7 US-based customer support and technical assistance",
+    "Flexible service terms with no long-term contracts for most offerings",
+    "Redundant network infrastructure ensuring high reliability",
+    "Customizable bandwidth and service options for specific business needs",
+    "Specialized expertise in rural and remote location connectivity",
+    "IoT-optimized data plans with device management capabilities",
+    "Managed satellite services with enterprise-grade features",
+    "Professional installation and network optimization services"
+  ],
+  "compliance_certifications": [
+    "Starlink Authorized Solution Provider",
+    "FCC Part 15 compliance for radio frequency equipment",
+    "PTCRB certification for cellular devices",
+    "HIPAA compliance support for healthcare applications",
+    "PCI DSS support for retail and payment processing applications"
+  ],
+  "contact_information": {
+    "support_model": "24/7 professional support with US-based technical staff",
+    "consultation": "Free connectivity assessments and solution design",
+    "deployment": "Professional installation and configuration services",
+    "account_management": "Dedicated support for enterprise customers"
+  }
+}

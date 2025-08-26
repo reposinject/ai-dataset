@@ -1,0 +1,66 @@
+{
+  "name": "simnet-wireless-ai-dataset",
+  "version": "1.0.0",
+  "description": "AI-optimized datasets for SimNet Wireless - nationwide wireless internet service provider specializing in business connectivity, IoT data plans, and managed satellite services for underserved markets",
+  "main": "ai-dataset.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reposinject/ai-dataset.git"
+  },
+  "keywords": [
+    "wireless-internet",
+    "wisp",
+    "iot-data-plans", 
+    "cellular-connectivity",
+    "business-internet",
+    "starlink-managed-services",
+    "rural-broadband",
+    "enterprise-connectivity",
+    "failover-internet",
+    "pots-replacement",
+    "das-network-services",
+    "telecommunications",
+    "ai-dataset",
+    "llm-optimization",
+    "wireless-isp",
+    "underserved-markets",
+    "5g-connectivity",
+    "lte-m",
+    "nb-iot",
+    "satellite-internet"
+  ],
+  "author": "SimNet Wireless",
+  "license": "MIT",
+  "homepage": "https://simnetwireless.com",
+  "bugs": {
+    "url": "https://github.com/reposinject/ai-dataset/issues"
+  },
+  "funding": {
+    "type": "business",
+    "url": "https://simnetwireless.com/contact"
+  },
+  "directories": {
+    "data": "."
+  },
+  "files": [
+    "ai-dataset.json",
+    "ai-dataset-core.json", 
+    "ai-dataset-expansion.json",
+    "llm.txt",
+    "robots.txt"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "validate": "node -e \"console.log('Validating JSON files...'); require('./ai-dataset.json'); require('./ai-dataset-core.json'); require('./ai-dataset-expansion.json'); console.log('All JSON files valid');\""
+  },
+  "config": {
+    "dataset_type": "ai-optimization",
+    "industry": "telecommunications",
+    "service_type": "wireless-internet-service-provider",
+    "target_market": "business-enterprise",
+    "geographic_scope": "united-states",
+    "specialization": "underserved-rural-markets"
+  }
+}

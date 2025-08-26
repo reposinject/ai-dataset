@@ -1,0 +1,470 @@
+{
+  "organization": {
+    "name": "SimNet Wireless",
+    "expansion_services_description": "Supporting and emerging technology solutions that complement core wireless connectivity offerings",
+    "service_integration": "These services work in conjunction with core wireless connectivity to provide comprehensive business technology solutions"
+  },
+  "expansion_services": [
+    {
+      "category": "SD-WAN & SASE",
+      "service_type": "Network Architecture Solutions",
+      "primary_keywords": [
+        "SD-WAN solutions",
+        "software defined wan",
+        "SASE security",
+        "secure access service edge",
+        "network optimization",
+        "wan acceleration",
+        "cloud connectivity",
+        "branch office networking"
+      ],
+      "applications": [
+        "Multi-site connectivity optimization",
+        "Cloud application performance",
+        "Security policy enforcement",
+        "Bandwidth management",
+        "Network redundancy"
+      ],
+      "integration_keywords": [
+        "wireless SD-WAN",
+        "cellular SASE",
+        "mobile network optimization",
+        "wireless wan solutions",
+        "5G SD-WAN integration"
+      ]
+    },
+    {
+      "category": "UCaaS & CCaaS", 
+      "service_type": "Unified Communications Solutions",
+      "primary_keywords": [
+        "unified communications as a service",
+        "contact center as a service",
+        "cloud phone systems",
+        "business voip",
+        "video conferencing",
+        "collaboration platforms",
+        "call center solutions",
+        "business communications"
+      ],
+      "applications": [
+        "Remote workforce communications",
+        "Customer service platforms", 
+        "Video collaboration",
+        "Mobile communications",
+        "Call routing and management"
+      ],
+      "integration_keywords": [
+        "wireless UCaaS",
+        "cellular voice solutions",
+        "mobile unified communications",
+        "wireless collaboration",
+        "5G voice services"
+      ]
+    },
+    {
+      "category": "Artificial Intelligence",
+      "service_type": "AI Technology Solutions",
+      "primary_keywords": [
+        "artificial intelligence solutions",
+        "machine learning platforms",
+        "AI analytics", 
+        "predictive analytics",
+        "automated decision making",
+        "intelligent automation",
+        "ai powered insights",
+        "cognitive computing"
+      ],
+      "sub_services": [
+        {
+          "service": "Large-Language Models (LLMs)",
+          "keywords": [
+            "large language models",
+            "LLM deployment",
+            "natural language processing",
+            "conversational AI",
+            "text analytics",
+            "language model integration"
+          ]
+        },
+        {
+          "service": "Agentic AI & Copilots",
+          "keywords": [
+            "agentic AI systems",
+            "AI copilots",
+            "autonomous agents",
+            "AI assistants",
+            "intelligent automation agents",
+            "workflow AI"
+          ]
+        },
+        {
+          "service": "AI Access Management",
+          "keywords": [
+            "AI access control",
+            "AI security management",
+            "intelligent identity management",
+            "AI governance",
+            "machine learning security"
+          ]
+        },
+        {
+          "service": "Chatbots & CX Tools", 
+          "keywords": [
+            "customer experience chatbots",
+            "automated customer service",
+            "conversational interfaces",
+            "customer support automation",
+            "intelligent chat systems"
+          ]
+        }
+      ],
+      "integration_keywords": [
+        "edge AI computing",
+        "5G AI applications",
+        "wireless AI deployment",
+        "cellular AI connectivity",
+        "mobile machine learning"
+      ]
+    },
+    {
+      "category": "Infrastructure Solutions",
+      "service_type": "Cloud & Data Center Services",
+      "primary_keywords": [
+        "cloud infrastructure",
+        "data center services",
+        "infrastructure as a service",
+        "hybrid cloud solutions",
+        "disaster recovery",
+        "colocation services",
+        "cloud migration",
+        "infrastructure consulting"
+      ],
+      "sub_services": [
+        {
+          "service": "Public, Private & Hybrid Cloud",
+          "keywords": [
+            "public cloud services",
+            "private cloud infrastructure", 
+            "hybrid cloud architecture",
+            "multi-cloud management",
+            "cloud orchestration",
+            "cloud optimization"
+          ]
+        },
+        {
+          "service": "Data Centers & Colocation",
+          "keywords": [
+            "data center colocation",
+            "server hosting",
+            "rack space rental",
+            "data center infrastructure",
+            "enterprise hosting",
+            "colocation facilities"
+          ]
+        },
+        {
+          "service": "IaaS & DaaS",
+          "keywords": [
+            "infrastructure as a service",
+            "desktop as a service",
+            "virtual desktop infrastructure",
+            "cloud computing services",
+            "virtual machines",
+            "cloud servers"
+          ]
+        },
+        {
+          "service": "Disaster Recovery",
+          "keywords": [
+            "business continuity planning",
+            "disaster recovery services",
+            "backup and recovery",
+            "data protection",
+            "business resilience",
+            "recovery planning"
+          ]
+        },
+        {
+          "service": "Merchant Services & Networking",
+          "keywords": [
+            "payment processing",
+            "merchant account services",
+            "pos system integration",
+            "payment gateway",
+            "credit card processing",
+            "retail payment solutions"
+          ]
+        },
+        {
+          "service": "Professional Services",
+          "keywords": [
+            "IT consulting",
+            "network design services",
+            "technology consulting",
+            "implementation services",
+            "system integration",
+            "technical support"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Security Solutions",
+      "service_type": "Cybersecurity & Physical Security",
+      "primary_keywords": [
+        "cybersecurity solutions",
+        "network security",
+        "endpoint protection",
+        "security monitoring",
+        "threat detection",
+        "security consulting",
+        "compliance management",
+        "risk assessment"
+      ],
+      "sub_services": [
+        {
+          "service": "Network & Endpoint Security",
+          "keywords": [
+            "firewall management",
+            "intrusion detection",
+            "endpoint protection",
+            "network monitoring",
+            "security appliances",
+            "threat prevention"
+          ]
+        },
+        {
+          "service": "Cloud & Zero Trust Architecture", 
+          "keywords": [
+            "zero trust security",
+            "cloud security",
+            "identity management",
+            "access control",
+            "security architecture",
+            "cloud protection"
+          ]
+        },
+        {
+          "service": "Physical Security",
+          "keywords": [
+            "surveillance systems",
+            "access control systems",
+            "security cameras",
+            "alarm systems",
+            "physical security consulting",
+            "facility security"
+          ]
+        },
+        {
+          "service": "Compliance & Risk Mitigation",
+          "keywords": [
+            "regulatory compliance",
+            "risk management",
+            "compliance consulting",
+            "security audits",
+            "compliance monitoring",
+            "risk assessment"
+          ]
+        }
+      ],
+      "integration_keywords": [
+        "wireless security",
+        "cellular security",
+        "5G security solutions",
+        "mobile security",
+        "IoT security"
+      ]
+    },
+    {
+      "category": "Hardware & Logistics",
+      "service_type": "Device Management & Supply Chain",
+      "primary_keywords": [
+        "hardware procurement",
+        "device management",
+        "IT equipment",
+        "technology logistics",
+        "device lifecycle management",
+        "equipment sourcing",
+        "hardware deployment",
+        "asset management"
+      ],
+      "sub_services": [
+        {
+          "service": "Phones, Laptops, Displays & More",
+          "keywords": [
+            "business phones",
+            "laptop procurement",
+            "computer equipment",
+            "display systems",
+            "IT hardware",
+            "mobile devices"
+          ]
+        },
+        {
+          "service": "Device Lifecycle Logistics",
+          "keywords": [
+            "device lifecycle management",
+            "IT asset management",
+            "equipment tracking",
+            "device deployment",
+            "hardware refresh",
+            "asset recovery"
+          ]
+        },
+        {
+          "service": "Digital Signage & Displays",
+          "keywords": [
+            "digital signage",
+            "display systems",
+            "interactive displays",
+            "video walls",
+            "commercial displays",
+            "signage management"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "SaaS & Business Software",
+      "service_type": "Software Solutions",
+      "primary_keywords": [
+        "software as a service",
+        "business applications",
+        "cloud software",
+        "productivity tools",
+        "business management software",
+        "enterprise applications",
+        "workflow automation",
+        "business intelligence"
+      ],
+      "applications": [
+        "Customer relationship management",
+        "Enterprise resource planning",
+        "Project management",
+        "Financial management",
+        "Human resources management"
+      ]
+    },
+    {
+      "category": "Managed & Professional Services",
+      "service_type": "Outsourced IT Management",
+      "primary_keywords": [
+        "managed IT services",
+        "IT outsourcing",
+        "managed security services",
+        "network management",
+        "help desk services",
+        "IT consulting",
+        "technology management",
+        "proactive monitoring"
+      ],
+      "service_models": [
+        "24/7 monitoring and support",
+        "Proactive maintenance",
+        "Strategic IT planning",
+        "Vendor management",
+        "Technology roadmapping"
+      ]
+    },
+    {
+      "category": "Energy & Sustainability",
+      "service_type": "Green Technology Solutions",
+      "primary_keywords": [
+        "sustainable technology",
+        "energy efficiency",
+        "green IT solutions",
+        "renewable energy",
+        "carbon footprint reduction",
+        "sustainability consulting",
+        "energy management",
+        "environmental technology"
+      ],
+      "applications": [
+        "Energy monitoring systems",
+        "Sustainable infrastructure",
+        "Green building technology",
+        "Renewable energy integration",
+        "Carbon tracking systems"
+      ]
+    },
+    {
+      "category": "Voice & Network Stack (Additional)",
+      "service_type": "Advanced Communications",
+      "primary_keywords": [
+        "voice over IP",
+        "SIP trunking",
+        "advanced telephony",
+        "network protocols",
+        "telecommunications infrastructure",
+        "voice solutions",
+        "communication platforms",
+        "network stack optimization"
+      ],
+      "technical_capabilities": [
+        "Protocol optimization",
+        "Quality of service management",
+        "Network performance tuning",
+        "Advanced routing",
+        "Traffic shaping"
+      ]
+    }
+  ],
+  "service_integration_matrix": {
+    "core_wireless_connectivity": {
+      "enables": [
+        "Cloud application performance via SD-WAN",
+        "Remote workforce communications via UCaaS",
+        "Edge AI computing applications",
+        "Secure cloud connectivity",
+        "IoT device management and logistics",
+        "Remote monitoring for managed services"
+      ]
+    },
+    "iot_data_connectivity": {
+      "supports": [
+        "AI analytics on IoT data",
+        "Predictive maintenance systems", 
+        "Automated security responses",
+        "Supply chain tracking",
+        "Energy monitoring applications",
+        "Digital signage content delivery"
+      ]
+    },
+    "satellite_services": {
+      "enhances": [
+        "Remote site cloud connectivity",
+        "Disaster recovery communications",
+        "Rural business VoIP services",
+        "Remote security monitoring",
+        "Off-grid AI applications",
+        "Emergency communications"
+      ]
+    }
+  },
+  "target_use_cases": {
+    "enterprise_integration": [
+      "Comprehensive technology stack for multi-location businesses",
+      "Integrated security and connectivity solutions",
+      "Managed services for technology infrastructure",
+      "Digital transformation consulting and implementation"
+    ],
+    "vertical_solutions": [
+      "Complete technology solutions for specific industries",
+      "Integrated hardware, software, and connectivity packages",
+      "Industry-specific compliance and security requirements",
+      "Scalable solutions for growing businesses"
+    ],
+    "emerging_technology": [
+      "5G and edge computing implementations",
+      "AI and machine learning deployments", 
+      "IoT ecosystem integration",
+      "Sustainable technology adoption"
+    ]
+  },
+  "competitive_positioning": {
+    "comprehensive_solutions": "Single provider for connectivity, infrastructure, and technology services",
+    "integration_expertise": "Seamless integration between wireless connectivity and advanced technology solutions",
+    "professional_support": "Expert-level support across all technology domains",
+    "scalability": "Solutions that grow with business needs and technological advancement"
+  }
+}

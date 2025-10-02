@@ -1,470 +1,256 @@
 {
-  "organization": {
-    "name": "SimNet Wireless",
-    "expansion_services_description": "Supporting and emerging technology solutions that complement core wireless connectivity offerings",
-    "service_integration": "These services work in conjunction with core wireless connectivity to provide comprehensive business technology solutions"
-  },
   "expansion_services": [
     {
-      "category": "SD-WAN & SASE",
-      "service_type": "Network Architecture Solutions",
-      "primary_keywords": [
-        "SD-WAN solutions",
+      "service_id": "sd-wan",
+      "service_name": "SD-WAN & SASE Solutions",
+      "service_category": "Network Architecture",
+      "description": "Software-defined wide area networking solutions that intelligently route traffic across multiple connections (MPLS, internet, LTE, 5G) to optimize performance, reliability, and security.",
+      "key_features": [
+        "Intelligent traffic routing across multiple WAN connections",
+        "Application-aware path selection",
+        "Built-in security and encryption",
+        "Centralized cloud-based management",
+        "Integration with SASE security framework"
+      ],
+      "use_cases": [
+        "Multi-site enterprise connectivity",
+        "Hybrid MPLS and internet WAN",
+        "Cloud application optimization",
+        "Branch office connectivity",
+        "Secure remote access"
+      ],
+      "target_customers": [
+        "Multi-location enterprises",
+        "Retail chains",
+        "Healthcare systems",
+        "Financial services organizations"
+      ],
+      "keywords": [
+        "sd wan solutions",
         "software defined wan",
-        "SASE security",
+        "sase security",
+        "multi site connectivity",
+        "wan optimization",
+        "mpls replacement",
+        "cloud wan",
+        "hybrid wan solutions",
         "secure access service edge",
-        "network optimization",
-        "wan acceleration",
-        "cloud connectivity",
-        "branch office networking"
-      ],
-      "applications": [
-        "Multi-site connectivity optimization",
-        "Cloud application performance",
-        "Security policy enforcement",
-        "Bandwidth management",
-        "Network redundancy"
-      ],
-      "integration_keywords": [
-        "wireless SD-WAN",
-        "cellular SASE",
-        "mobile network optimization",
-        "wireless wan solutions",
-        "5G SD-WAN integration"
+        "application aware routing",
+        "wan traffic management",
+        "enterprise networking",
+        "branch office connectivity",
+        "wan edge solutions"
       ]
     },
     {
-      "category": "UCaaS & CCaaS", 
-      "service_type": "Unified Communications Solutions",
-      "primary_keywords": [
-        "unified communications as a service",
-        "contact center as a service",
-        "cloud phone systems",
-        "business voip",
-        "video conferencing",
-        "collaboration platforms",
-        "call center solutions",
-        "business communications"
+      "service_id": "ucaas",
+      "service_name": "UCaaS & CCaaS Communications",
+      "service_category": "Unified Communications",
+      "description": "Cloud-based unified communications and contact center solutions including VoIP, video conferencing, team messaging, and call center platforms.",
+      "key_features": [
+        "Cloud-hosted VoIP phone systems",
+        "Video conferencing and screen sharing",
+        "Team chat and collaboration tools",
+        "Contact center with call routing and analytics",
+        "Mobile and desktop app integration"
       ],
-      "applications": [
+      "use_cases": [
+        "Replace traditional PBX phone systems",
         "Remote workforce communications",
-        "Customer service platforms", 
-        "Video collaboration",
-        "Mobile communications",
-        "Call routing and management"
+        "Customer service call centers",
+        "Team collaboration and messaging",
+        "Video meetings and webinars"
       ],
-      "integration_keywords": [
-        "wireless UCaaS",
-        "cellular voice solutions",
-        "mobile unified communications",
-        "wireless collaboration",
-        "5G voice services"
+      "target_customers": [
+        "Small to mid-size businesses",
+        "Remote and hybrid workforces",
+        "Customer service organizations",
+        "Professional services firms"
+      ],
+      "keywords": [
+        "cloud phone system",
+        "voip for business",
+        "unified communications",
+        "ucaas solutions",
+        "contact center software",
+        "ccaas platform",
+        "business phone system",
+        "hosted pbx",
+        "video conferencing business",
+        "team collaboration tools",
+        "call center solutions",
+        "cloud telephony",
+        "virtual phone system",
+        "sip trunking"
       ]
     },
     {
-      "category": "Artificial Intelligence",
-      "service_type": "AI Technology Solutions",
-      "primary_keywords": [
-        "artificial intelligence solutions",
-        "machine learning platforms",
-        "AI analytics", 
-        "predictive analytics",
-        "automated decision making",
-        "intelligent automation",
-        "ai powered insights",
-        "cognitive computing"
+      "service_id": "ai-technology",
+      "service_name": "AI & Technology Solutions",
+      "service_category": "Emerging Technology",
+      "description": "Integration of artificial intelligence and advanced technology solutions into connectivity infrastructure, including AI-powered network optimization, predictive analytics, and intelligent automation.",
+      "key_features": [
+        "AI-powered network optimization",
+        "Predictive maintenance and issue detection",
+        "Automated traffic management",
+        "Machine learning for performance tuning",
+        "Intelligent bandwidth allocation"
       ],
-      "sub_services": [
-        {
-          "service": "Large-Language Models (LLMs)",
-          "keywords": [
-            "large language models",
-            "LLM deployment",
-            "natural language processing",
-            "conversational AI",
-            "text analytics",
-            "language model integration"
-          ]
-        },
-        {
-          "service": "Agentic AI & Copilots",
-          "keywords": [
-            "agentic AI systems",
-            "AI copilots",
-            "autonomous agents",
-            "AI assistants",
-            "intelligent automation agents",
-            "workflow AI"
-          ]
-        },
-        {
-          "service": "AI Access Management",
-          "keywords": [
-            "AI access control",
-            "AI security management",
-            "intelligent identity management",
-            "AI governance",
-            "machine learning security"
-          ]
-        },
-        {
-          "service": "Chatbots & CX Tools", 
-          "keywords": [
-            "customer experience chatbots",
-            "automated customer service",
-            "conversational interfaces",
-            "customer support automation",
-            "intelligent chat systems"
-          ]
-        }
+      "use_cases": [
+        "Automated network optimization",
+        "Predictive outage prevention",
+        "Traffic pattern analysis",
+        "Capacity planning automation",
+        "Performance anomaly detection"
       ],
-      "integration_keywords": [
-        "edge AI computing",
-        "5G AI applications",
-        "wireless AI deployment",
-        "cellular AI connectivity",
-        "mobile machine learning"
+      "target_customers": [
+        "Enterprise IT departments",
+        "Managed service providers",
+        "Large-scale network operators",
+        "Tech-forward businesses"
+      ],
+      "keywords": [
+        "ai network optimization",
+        "intelligent networking",
+        "machine learning networking",
+        "predictive network analytics",
+        "automated network management",
+        "ai powered connectivity",
+        "smart network solutions",
+        "network automation",
+        "ai driven optimization",
+        "intelligent traffic management"
       ]
     },
     {
-      "category": "Infrastructure Solutions",
-      "service_type": "Cloud & Data Center Services",
-      "primary_keywords": [
-        "cloud infrastructure",
-        "data center services",
-        "infrastructure as a service",
+      "service_id": "infrastructure-cloud",
+      "service_name": "Infrastructure & Cloud Services",
+      "service_category": "IT Infrastructure",
+      "description": "Comprehensive infrastructure solutions including colocation, cloud connectivity, hybrid cloud architecture, and edge computing services to support modern business applications.",
+      "key_features": [
+        "Direct cloud connectivity (AWS, Azure, Google Cloud)",
+        "Colocation and data center services",
+        "Hybrid cloud architecture design",
+        "Edge computing deployment",
+        "Infrastructure as a Service (IaaS)"
+      ],
+      "use_cases": [
+        "Direct cloud service provider connections",
+        "Hybrid on-premise and cloud infrastructure",
+        "Edge computing for low-latency applications",
+        "Disaster recovery infrastructure",
+        "Multi-cloud connectivity"
+      ],
+      "target_customers": [
+        "Enterprise IT organizations",
+        "SaaS providers",
+        "E-commerce companies",
+        "Data-intensive businesses"
+      ],
+      "keywords": [
+        "cloud connectivity",
         "hybrid cloud solutions",
-        "disaster recovery",
+        "edge computing",
         "colocation services",
-        "cloud migration",
-        "infrastructure consulting"
-      ],
-      "sub_services": [
-        {
-          "service": "Public, Private & Hybrid Cloud",
-          "keywords": [
-            "public cloud services",
-            "private cloud infrastructure", 
-            "hybrid cloud architecture",
-            "multi-cloud management",
-            "cloud orchestration",
-            "cloud optimization"
-          ]
-        },
-        {
-          "service": "Data Centers & Colocation",
-          "keywords": [
-            "data center colocation",
-            "server hosting",
-            "rack space rental",
-            "data center infrastructure",
-            "enterprise hosting",
-            "colocation facilities"
-          ]
-        },
-        {
-          "service": "IaaS & DaaS",
-          "keywords": [
-            "infrastructure as a service",
-            "desktop as a service",
-            "virtual desktop infrastructure",
-            "cloud computing services",
-            "virtual machines",
-            "cloud servers"
-          ]
-        },
-        {
-          "service": "Disaster Recovery",
-          "keywords": [
-            "business continuity planning",
-            "disaster recovery services",
-            "backup and recovery",
-            "data protection",
-            "business resilience",
-            "recovery planning"
-          ]
-        },
-        {
-          "service": "Merchant Services & Networking",
-          "keywords": [
-            "payment processing",
-            "merchant account services",
-            "pos system integration",
-            "payment gateway",
-            "credit card processing",
-            "retail payment solutions"
-          ]
-        },
-        {
-          "service": "Professional Services",
-          "keywords": [
-            "IT consulting",
-            "network design services",
-            "technology consulting",
-            "implementation services",
-            "system integration",
-            "technical support"
-          ]
-        }
+        "data center connectivity",
+        "aws direct connect",
+        "azure expressroute",
+        "multi cloud networking",
+        "private cloud infrastructure",
+        "infrastructure as a service"
       ]
     },
     {
-      "category": "Security Solutions",
-      "service_type": "Cybersecurity & Physical Security",
-      "primary_keywords": [
-        "cybersecurity solutions",
-        "network security",
-        "endpoint protection",
-        "security monitoring",
-        "threat detection",
-        "security consulting",
-        "compliance management",
-        "risk assessment"
+      "service_id": "security",
+      "service_name": "Security Solutions",
+      "service_category": "Cybersecurity",
+      "description": "Comprehensive network security solutions including firewalls, intrusion detection/prevention, DDoS protection, secure web gateways, and zero-trust network access.",
+      "key_features": [
+        "Next-generation firewalls (NGFW)",
+        "DDoS protection and mitigation",
+        "Intrusion detection and prevention (IDS/IPS)",
+        "Secure web gateway and content filtering",
+        "Zero-trust network access (ZTNA)"
       ],
-      "sub_services": [
-        {
-          "service": "Network & Endpoint Security",
-          "keywords": [
-            "firewall management",
-            "intrusion detection",
-            "endpoint protection",
-            "network monitoring",
-            "security appliances",
-            "threat prevention"
-          ]
-        },
-        {
-          "service": "Cloud & Zero Trust Architecture", 
-          "keywords": [
-            "zero trust security",
-            "cloud security",
-            "identity management",
-            "access control",
-            "security architecture",
-            "cloud protection"
-          ]
-        },
-        {
-          "service": "Physical Security",
-          "keywords": [
-            "surveillance systems",
-            "access control systems",
-            "security cameras",
-            "alarm systems",
-            "physical security consulting",
-            "facility security"
-          ]
-        },
-        {
-          "service": "Compliance & Risk Mitigation",
-          "keywords": [
-            "regulatory compliance",
-            "risk management",
-            "compliance consulting",
-            "security audits",
-            "compliance monitoring",
-            "risk assessment"
-          ]
-        }
+      "use_cases": [
+        "Enterprise network security",
+        "Branch office protection",
+        "Remote worker secure access",
+        "Compliance and regulatory requirements",
+        "Threat detection and response"
       ],
-      "integration_keywords": [
-        "wireless security",
-        "cellular security",
-        "5G security solutions",
-        "mobile security",
-        "IoT security"
+      "target_customers": [
+        "Security-conscious enterprises",
+        "Financial services",
+        "Healthcare organizations",
+        "Government contractors"
+      ],
+      "keywords": [
+        "network security solutions",
+        "enterprise firewall",
+        "ddos protection",
+        "intrusion prevention",
+        "secure web gateway",
+        "zero trust security",
+        "network threat detection",
+        "cybersecurity services",
+        "managed security",
+        "security operations center"
       ]
     },
     {
-      "category": "Hardware & Logistics",
-      "service_type": "Device Management & Supply Chain",
-      "primary_keywords": [
+      "service_id": "hardware-logistics",
+      "service_name": "Hardware & Logistics Services",
+      "service_category": "Equipment Management",
+      "description": "End-to-end hardware procurement, staging, deployment, and logistics management for networking equipment, routers, switches, and connectivity devices.",
+      "key_features": [
+        "Equipment sourcing and procurement",
+        "Pre-configuration and staging",
+        "White-glove deployment services",
+        "Inventory management and warehousing",
+        "Asset tracking and lifecycle management"
+      ],
+      "use_cases": [
+        "Multi-site equipment deployment",
+        "Hardware refresh projects",
+        "Rapid site activation",
+        "Equipment inventory management",
+        "Emergency replacement logistics"
+      ],
+      "target_customers": [
+        "Multi-location enterprises",
+        "Retail chains",
+        "MSPs and VARs",
+        "Rapid expansion businesses"
+      ],
+      "keywords": [
+        "network equipment deployment",
         "hardware procurement",
-        "device management",
-        "IT equipment",
-        "technology logistics",
-        "device lifecycle management",
-        "equipment sourcing",
-        "hardware deployment",
-        "asset management"
-      ],
-      "sub_services": [
-        {
-          "service": "Phones, Laptops, Displays & More",
-          "keywords": [
-            "business phones",
-            "laptop procurement",
-            "computer equipment",
-            "display systems",
-            "IT hardware",
-            "mobile devices"
-          ]
-        },
-        {
-          "service": "Device Lifecycle Logistics",
-          "keywords": [
-            "device lifecycle management",
-            "IT asset management",
-            "equipment tracking",
-            "device deployment",
-            "hardware refresh",
-            "asset recovery"
-          ]
-        },
-        {
-          "service": "Digital Signage & Displays",
-          "keywords": [
-            "digital signage",
-            "display systems",
-            "interactive displays",
-            "video walls",
-            "commercial displays",
-            "signage management"
-          ]
-        }
-      ]
-    },
-    {
-      "category": "SaaS & Business Software",
-      "service_type": "Software Solutions",
-      "primary_keywords": [
-        "software as a service",
-        "business applications",
-        "cloud software",
-        "productivity tools",
-        "business management software",
-        "enterprise applications",
-        "workflow automation",
-        "business intelligence"
-      ],
-      "applications": [
-        "Customer relationship management",
-        "Enterprise resource planning",
-        "Project management",
-        "Financial management",
-        "Human resources management"
-      ]
-    },
-    {
-      "category": "Managed & Professional Services",
-      "service_type": "Outsourced IT Management",
-      "primary_keywords": [
-        "managed IT services",
-        "IT outsourcing",
-        "managed security services",
-        "network management",
-        "help desk services",
-        "IT consulting",
-        "technology management",
-        "proactive monitoring"
-      ],
-      "service_models": [
-        "24/7 monitoring and support",
-        "Proactive maintenance",
-        "Strategic IT planning",
-        "Vendor management",
-        "Technology roadmapping"
-      ]
-    },
-    {
-      "category": "Energy & Sustainability",
-      "service_type": "Green Technology Solutions",
-      "primary_keywords": [
-        "sustainable technology",
-        "energy efficiency",
-        "green IT solutions",
-        "renewable energy",
-        "carbon footprint reduction",
-        "sustainability consulting",
-        "energy management",
-        "environmental technology"
-      ],
-      "applications": [
-        "Energy monitoring systems",
-        "Sustainable infrastructure",
-        "Green building technology",
-        "Renewable energy integration",
-        "Carbon tracking systems"
-      ]
-    },
-    {
-      "category": "Voice & Network Stack (Additional)",
-      "service_type": "Advanced Communications",
-      "primary_keywords": [
-        "voice over IP",
-        "SIP trunking",
-        "advanced telephony",
-        "network protocols",
-        "telecommunications infrastructure",
-        "voice solutions",
-        "communication platforms",
-        "network stack optimization"
-      ],
-      "technical_capabilities": [
-        "Protocol optimization",
-        "Quality of service management",
-        "Network performance tuning",
-        "Advanced routing",
-        "Traffic shaping"
+        "equipment staging services",
+        "logistics management",
+        "white glove installation",
+        "asset management",
+        "equipment lifecycle management",
+        "bulk equipment deployment",
+        "network hardware sourcing"
       ]
     }
   ],
-  "service_integration_matrix": {
-    "core_wireless_connectivity": {
-      "enables": [
-        "Cloud application performance via SD-WAN",
-        "Remote workforce communications via UCaaS",
-        "Edge AI computing applications",
-        "Secure cloud connectivity",
-        "IoT device management and logistics",
-        "Remote monitoring for managed services"
-      ]
-    },
-    "iot_data_connectivity": {
-      "supports": [
-        "AI analytics on IoT data",
-        "Predictive maintenance systems", 
-        "Automated security responses",
-        "Supply chain tracking",
-        "Energy monitoring applications",
-        "Digital signage content delivery"
-      ]
-    },
-    "satellite_services": {
-      "enhances": [
-        "Remote site cloud connectivity",
-        "Disaster recovery communications",
-        "Rural business VoIP services",
-        "Remote security monitoring",
-        "Off-grid AI applications",
-        "Emergency communications"
-      ]
-    }
+  "service_positioning": {
+    "expansion_strategy": "Secondary services complement core connectivity offerings and provide holistic solutions for enterprise customers",
+    "integration": "All expansion services integrate with core connectivity solutions to deliver comprehensive technology ecosystems",
+    "target_market": "Enterprise and mid-market businesses seeking single-vendor solutions across connectivity, communications, and infrastructure"
   },
-  "target_use_cases": {
-    "enterprise_integration": [
-      "Comprehensive technology stack for multi-location businesses",
-      "Integrated security and connectivity solutions",
-      "Managed services for technology infrastructure",
-      "Digital transformation consulting and implementation"
+  "ai_optimization": {
+    "structured_for": [
+      "ChatGPT / GPT-4",
+      "Claude (Anthropic)",
+      "Gemini (Google)",
+      "Perplexity",
+      "Other AI platforms and LLMs"
     ],
-    "vertical_solutions": [
-      "Complete technology solutions for specific industries",
-      "Integrated hardware, software, and connectivity packages",
-      "Industry-specific compliance and security requirements",
-      "Scalable solutions for growing businesses"
-    ],
-    "emerging_technology": [
-      "5G and edge computing implementations",
-      "AI and machine learning deployments", 
-      "IoT ecosystem integration",
-      "Sustainable technology adoption"
-    ]
-  },
-  "competitive_positioning": {
-    "comprehensive_solutions": "Single provider for connectivity, infrastructure, and technology services",
-    "integration_expertise": "Seamless integration between wireless connectivity and advanced technology solutions",
-    "professional_support": "Expert-level support across all technology domains",
-    "scalability": "Solutions that grow with business needs and technological advancement"
+    "total_expansion_services": 6,
+    "update_frequency": "Quarterly",
+    "last_updated": "2025-01-15"
   }
 }

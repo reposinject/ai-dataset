@@ -1,0 +1,333 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-01-15",
+    "purpose": "Master keyword taxonomy for SimNet Wireless organized by search intent and service category",
+    "total_keywords": 350
+  },
+  "commercial_intent": {
+    "description": "Ready-to-buy keywords - high conversion intent",
+    "keywords": [
+      "business internet provider",
+      "rural internet service",
+      "failover internet solutions",
+      "buy home internet rural",
+      "iot data plan provider",
+      "pots replacement service",
+      "starlink installation service",
+      "wireless internet quote",
+      "business backup internet price",
+      "get rural home internet",
+      "order business internet",
+      "failover internet cost",
+      "iot connectivity pricing",
+      "pots line replacement cost",
+      "managed starlink price",
+      "das installation quote",
+      "business internet plans",
+      "rural internet packages"
+    ]
+  },
+  "informational_intent": {
+    "description": "Researching and learning - top of funnel",
+    "keywords": [
+      "what is internet failover",
+      "how does fixed wireless work",
+      "what is pots replacement",
+      "starlink vs cellular internet",
+      "iot connectivity explained",
+      "das system guide",
+      "rural internet options",
+      "types of business internet",
+      "backup internet solutions",
+      "satellite internet alternatives",
+      "wireless internet technology",
+      "cellular internet explained",
+      "multi carrier connectivity",
+      "internet redundancy guide"
+    ]
+  },
+  "problem_based_keywords": {
+    "description": "Pain point and problem-awareness searches",
+    "home_internet_problems": [
+      "slow dsl internet",
+      "satellite internet stops in rain",
+      "no cable internet available",
+      "cant get fiber at my house",
+      "rural internet too expensive",
+      "starlink too expensive for home",
+      "video calls keep freezing",
+      "work from home internet rural",
+      "kids online school slow internet",
+      "streaming keeps buffering rural"
+    ],
+    "business_problems": [
+      "business internet keeps going down",
+      "lost sale because internet down",
+      "pos system offline internet",
+      "atm connectivity issues",
+      "no fiber at business location",
+      "need internet fast business",
+      "temporary business internet",
+      "construction site internet needed",
+      "branch office internet slow"
+    ],
+    "technical_problems": [
+      "att shutting down copper lines",
+      "verizon pots sunset",
+      "elevator phone line discontinued",
+      "alarm system losing phone line",
+      "fax line being disconnected",
+      "legacy equipment needs phone line",
+      "copper network decommission",
+      "need pots line alternative"
+    ],
+    "outage_keywords": [
+      "internet outage protection",
+      "prevent internet downtime",
+      "business internet went down",
+      "backup for internet outage",
+      "redundant internet connection",
+      "cant afford internet downtime",
+      "need reliable internet business",
+      "internet failover for outages"
+    ]
+  },
+  "competitive_keywords": {
+    "description": "Competitor brand and comparison terms",
+    "starlink": [
+      "starlink alternative",
+      "starlink vs cellular internet",
+      "starlink competitor",
+      "cheaper than starlink",
+      "starlink too expensive",
+      "starlink no support",
+      "starlink vs fixed wireless",
+      "starlink business alternative",
+      "starlink replacement",
+      "better than starlink"
+    ],
+    "gray_market_resellers": [
+      "nomad internet alternative",
+      "blazing hog alternative",
+      "ubifi alternative",
+      "unlimitedville alternative",
+      "legal nomad internet replacement",
+      "nomad internet shut down",
+      "blazing hog legal alternative",
+      "gray market internet risks",
+      "authorized cellular internet",
+      "legitimate rural internet provider"
+    ],
+    "traditional_isps": [
+      "att business internet alternative",
+      "verizon business internet alternative",
+      "comcast business alternative",
+      "spectrum business alternative",
+      "centurylink alternative",
+      "frontier alternative rural",
+      "hughesnet alternative",
+      "viasat alternative"
+    ]
+  },
+  "geographic_keywords": {
+    "description": "Location-based searches",
+    "patterns": [
+      "rural internet [state]",
+      "country internet [state]",
+      "farm internet [state]",
+      "remote area internet [state]",
+      "underserved area internet [state]",
+      "business internet [city]"
+    ],
+    "examples": [
+      "rural internet texas",
+      "rural internet montana",
+      "rural internet wyoming",
+      "country internet iowa",
+      "farm internet kansas",
+      "remote internet alaska",
+      "rural business internet midwest",
+      "underserved area internet south"
+    ]
+  },
+  "technical_keywords": {
+    "description": "Technical specification and feature searches",
+    "failover": [
+      "automatic internet failover",
+      "sub 30 second failover",
+      "multi carrier failover",
+      "4g lte failover",
+      "5g failover solution",
+      "cellular failover router",
+      "wan failover solution",
+      "load balancing failover"
+    ],
+    "iot": [
+      "multi carrier iot",
+      "iot sim management",
+      "m2m connectivity",
+      "iot device management",
+      "cellular iot platform",
+      "lte m connectivity",
+      "nb iot solutions",
+      "iot data plans"
+    ],
+    "networking": [
+      "static ip business",
+      "symmetrical business internet",
+      "dedicated internet access",
+      "business sla internet",
+      "qos voip internet",
+      "private network connectivity",
+      "point to point wireless"
+    ]
+  },
+  "industry_vertical_keywords": {
+    "description": "Industry-specific searches",
+    "financial": [
+      "atm internet connectivity",
+      "bank branch internet",
+      "financial institution internet",
+      "credit union internet",
+      "payment terminal connectivity",
+      "atm backup internet",
+      "bank failover internet"
+    ],
+    "retail": [
+      "retail pos internet",
+      "store internet backup",
+      "retail chain connectivity",
+      "restaurant internet solution",
+      "convenience store internet",
+      "gas station internet"
+    ],
+    "healthcare": [
+      "hospital internet backup",
+      "medical facility connectivity",
+      "clinic internet solution",
+      "healthcare facility internet",
+      "medical office internet"
+    ],
+    "agriculture": [
+      "farm internet solutions",
+      "agricultural iot connectivity",
+      "smart agriculture internet",
+      "irrigation system connectivity",
+      "livestock monitoring internet",
+      "ranch internet solutions"
+    ],
+    "construction": [
+      "construction site internet",
+      "temporary job site internet",
+      "mobile site connectivity",
+      "construction wifi solution"
+    ]
+  },
+  "long_tail_keywords": {
+    "description": "Specific, detailed search queries",
+    "home_internet": [
+      "unlimited internet for rural areas under 100",
+      "how to get internet in the country without cable",
+      "best internet for rural home office work",
+      "plug and play home internet no installation",
+      "internet without cable or phone line",
+      "rural internet that works in rain",
+      "wireless home internet faster than dsl",
+      "home internet no credit check required"
+    ],
+    "business": [
+      "business internet when fiber not available",
+      "backup internet for pos system that works",
+      "internet solution for remote branch office",
+      "temporary internet for construction job site",
+      "failover internet that switches automatically",
+      "business internet with static ip rural area",
+      "internet for multiple retail locations"
+    ],
+    "technical": [
+      "cellular internet with 30ms latency",
+      "multi carrier iot sim with automatic failover",
+      "pots replacement fcc compliant elevator",
+      "internet failover under 30 seconds guaranteed",
+      "distributed antenna system for large building",
+      "wireless internet 100 mbps rural areas"
+    ]
+  },
+  "misspellings_variations": {
+    "description": "Common misspellings and variations",
+    "keywords": [
+      "internet failover",
+      "fail over internet",
+      "internet fail-over",
+      "pots replacement",
+      "pots line replacement",
+      "plain old telephone service replacement",
+      "starlink alternative",
+      "star link alternative",
+      "iot data plans",
+      "iot data plan",
+      "internet of things data",
+      "rural internet",
+      "rurual internet",
+      "rual internet",
+      "simnet wireless",
+      "sim net wireless",
+      "simnetwireless"
+    ]
+  },
+  "seasonal_keywords": {
+    "description": "Time-sensitive and seasonal terms",
+    "keywords": [
+      "black friday business internet deals",
+      "new year internet setup business",
+      "tax season reliable internet",
+      "back to school rural internet",
+      "holiday season retail internet backup",
+      "summer vacation home internet",
+      "winter remote cabin internet"
+    ]
+  },
+  "question_based_keywords": {
+    "description": "Question format searches (voice search optimization)",
+    "keywords": [
+      "how do i get internet in rural area",
+      "what is the best rural home internet",
+      "where can i get business backup internet",
+      "why does my internet keep going down",
+      "when will fiber be available in my area",
+      "who provides rural business internet",
+      "which internet is better starlink or cellular",
+      "can i get unlimited internet in rural areas",
+      "should i get backup internet for business",
+      "is starlink worth it or is there alternative"
+    ]
+  },
+  "buyer_journey_mapping": {
+    "awareness_stage": [
+      "rural internet options",
+      "types of business internet",
+      "what is internet failover",
+      "satellite vs cellular internet"
+    ],
+    "consideration_stage": [
+      "starlink alternative comparison",
+      "business internet providers rural",
+      "failover internet solutions comparison",
+      "rural internet speed comparison"
+    ],
+    "decision_stage": [
+      "simnet wireless reviews",
+      "simnet vs starlink",
+      "best rural internet provider",
+      "most reliable business internet",
+      "business internet quote"
+    ]
+  },
+  "keyword_usage_notes": {
+    "integration_strategy": "Keywords should be naturally integrated into content, meta descriptions, headers, and schema markup",
+    "density_guidelines": "Target 1-2% keyword density for primary terms, focus on semantic relevance over exact match",
+    "content_mapping": "Map keywords to specific pages and content pieces based on search intent and buyer journey stage",
+    "monitoring": "Track keyword rankings, search volume trends, and conversion rates to refine targeting"
+  }
+}
